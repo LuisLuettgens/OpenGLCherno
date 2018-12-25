@@ -1651,7 +1651,7 @@
 		<Unit filename="/home/luis/CLionProjects/OpenGL/cmake-build-debug/vendor/GLFW/src/glfw_config.h">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="/home/luis/CLionProjects/OpenGL/main.cpp">
+		<Unit filename="/home/luis/CLionProjects/OpenGL/src/main.cpp">
 			<Option target="OpenGL"/>
 		</Unit>
 		<Unit filename="/home/luis/CLionProjects/OpenGL/vendor/GLFW/deps/getopt.c">

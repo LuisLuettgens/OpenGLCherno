@@ -10,6 +10,6 @@ add_subdirectory(vendor/GLFW)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${ROOT_DIR}/bin)
 
 message(${ROOT_DIR}/vendor/GLFW/include)
-add_executable(OpenGL main.cpp)
+add_executable(OpenGL src/main.cpp)
 
 target_link_libraries(OpenGL glfw glut GL GLEW)

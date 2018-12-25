@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/luis/CLionProjects/OpenGL/main.cpp" "/home/luis/CLionProjects/OpenGL/build/CMakeFiles/OpenGL.dir/main.cpp.o"
+  "/home/luis/CLionProjects/OpenGL/src/main.cpp" "/home/luis/CLionProjects/OpenGL/build/CMakeFiles/OpenGL.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

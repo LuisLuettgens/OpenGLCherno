@@ -57,38 +57,38 @@ include CMakeFiles/OpenGL.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/OpenGL.dir/flags.make
 
-CMakeFiles/OpenGL.dir/main.cpp.o: CMakeFiles/OpenGL.dir/flags.make
-CMakeFiles/OpenGL.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/CLionProjects/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OpenGL.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGL.dir/main.cpp.o -c /home/luis/CLionProjects/OpenGL/main.cpp
+CMakeFiles/OpenGL.dir/src/main.cpp.o: CMakeFiles/OpenGL.dir/flags.make
+CMakeFiles/OpenGL.dir/src/main.cpp.o: ../src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/CLionProjects/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OpenGL.dir/src/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGL.dir/src/main.cpp.o -c /home/luis/CLionProjects/OpenGL/src/main.cpp
 
-CMakeFiles/OpenGL.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGL.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/CLionProjects/OpenGL/main.cpp > CMakeFiles/OpenGL.dir/main.cpp.i
+CMakeFiles/OpenGL.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGL.dir/src/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/CLionProjects/OpenGL/src/main.cpp > CMakeFiles/OpenGL.dir/src/main.cpp.i
 
-CMakeFiles/OpenGL.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGL.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/CLionProjects/OpenGL/main.cpp -o CMakeFiles/OpenGL.dir/main.cpp.s
+CMakeFiles/OpenGL.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGL.dir/src/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/CLionProjects/OpenGL/src/main.cpp -o CMakeFiles/OpenGL.dir/src/main.cpp.s
 
-CMakeFiles/OpenGL.dir/main.cpp.o.requires:
+CMakeFiles/OpenGL.dir/src/main.cpp.o.requires:
 
-.PHONY : CMakeFiles/OpenGL.dir/main.cpp.o.requires
+.PHONY : CMakeFiles/OpenGL.dir/src/main.cpp.o.requires
 
-CMakeFiles/OpenGL.dir/main.cpp.o.provides: CMakeFiles/OpenGL.dir/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/OpenGL.dir/build.make CMakeFiles/OpenGL.dir/main.cpp.o.provides.build
-.PHONY : CMakeFiles/OpenGL.dir/main.cpp.o.provides
+CMakeFiles/OpenGL.dir/src/main.cpp.o.provides: CMakeFiles/OpenGL.dir/src/main.cpp.o.requires
+	$(MAKE) -f CMakeFiles/OpenGL.dir/build.make CMakeFiles/OpenGL.dir/src/main.cpp.o.provides.build
+.PHONY : CMakeFiles/OpenGL.dir/src/main.cpp.o.provides
 
-CMakeFiles/OpenGL.dir/main.cpp.o.provides.build: CMakeFiles/OpenGL.dir/main.cpp.o
+CMakeFiles/OpenGL.dir/src/main.cpp.o.provides.build: CMakeFiles/OpenGL.dir/src/main.cpp.o
 
 
 # Object files for target OpenGL
 OpenGL_OBJECTS = \
-"CMakeFiles/OpenGL.dir/main.cpp.o"
+"CMakeFiles/OpenGL.dir/src/main.cpp.o"
 
 # External object files for target OpenGL
 OpenGL_EXTERNAL_OBJECTS =
 
-../bin/OpenGL: CMakeFiles/OpenGL.dir/main.cpp.o
+../bin/OpenGL: CMakeFiles/OpenGL.dir/src/main.cpp.o
 ../bin/OpenGL: CMakeFiles/OpenGL.dir/build.make
 ../bin/OpenGL: vendor/GLFW/src/libglfw.so.3.3
 ../bin/OpenGL: CMakeFiles/OpenGL.dir/link.txt
@@ -100,7 +100,7 @@ CMakeFiles/OpenGL.dir/build: ../bin/OpenGL
 
 .PHONY : CMakeFiles/OpenGL.dir/build
 
-CMakeFiles/OpenGL.dir/requires: CMakeFiles/OpenGL.dir/main.cpp.o.requires
+CMakeFiles/OpenGL.dir/requires: CMakeFiles/OpenGL.dir/src/main.cpp.o.requires
 
 .PHONY : CMakeFiles/OpenGL.dir/requires
 

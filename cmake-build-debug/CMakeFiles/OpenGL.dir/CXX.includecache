@@ -50,11 +50,15 @@ GL/glu.h
 vulkan/vulkan.h
 -
 
-/home/luis/CLionProjects/OpenGL/main.cpp
+/home/luis/CLionProjects/OpenGL/src/main.cpp
 GL/glew.h
 -
 GLFW/glfw3.h
 -
 iostream
+-
+fstream
+-
+sstream
 -
 
