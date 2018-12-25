@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -rdynamic CMakeFiles/splitview.dir/splitview.c.o CMakeFiles/splitview.dir/__/deps/glad.c.o  -o splitview -Wl,-rpath,/home/luis/CLionProjects/OpenGL/cmake-build-debug/vendor/GLFW/src ../src/libglfw.so.3.3 -lm 

@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -rdynamic CMakeFiles/tearing.dir/tearing.c.o CMakeFiles/tearing.dir/__/deps/glad.c.o  -o tearing -Wl,-rpath,/home/luis/CLionProjects/OpenGL/cmake-build-debug/vendor/GLFW/src ../src/libglfw.so.3.3 -lm 

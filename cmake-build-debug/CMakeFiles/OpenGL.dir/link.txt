@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/OpenGL.dir/main.cpp.o  -o ../bin/OpenGL -Wl,-rpath,/home/luis/CLionProjects/OpenGL/cmake-build-debug/vendor/GLFW/src vendor/GLFW/src/libglfw.so.3.3 -lglut -lGL -lGLEW 

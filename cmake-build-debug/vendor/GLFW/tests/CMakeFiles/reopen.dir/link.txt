@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -rdynamic CMakeFiles/reopen.dir/reopen.c.o CMakeFiles/reopen.dir/__/deps/glad.c.o  -o reopen -Wl,-rpath,/home/luis/CLionProjects/OpenGL/cmake-build-debug/vendor/GLFW/src ../src/libglfw.so.3.3 -lm 

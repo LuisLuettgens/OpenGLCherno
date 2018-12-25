@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -rdynamic CMakeFiles/threads.dir/threads.c.o CMakeFiles/threads.dir/__/deps/tinycthread.c.o CMakeFiles/threads.dir/__/deps/glad.c.o  -o threads -Wl,-rpath,/home/luis/CLionProjects/OpenGL/cmake-build-debug/vendor/GLFW/src ../src/libglfw.so.3.3 -lm -lpthread -lrt 

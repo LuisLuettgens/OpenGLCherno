@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -rdynamic CMakeFiles/msaa.dir/msaa.c.o CMakeFiles/msaa.dir/__/deps/getopt.c.o CMakeFiles/msaa.dir/__/deps/glad.c.o  -o msaa -Wl,-rpath,/home/luis/CLionProjects/OpenGL/cmake-build-debug/vendor/GLFW/src ../src/libglfw.so.3.3 -lm 
