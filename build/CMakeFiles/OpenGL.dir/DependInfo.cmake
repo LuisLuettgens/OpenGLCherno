@@ -4,6 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/luis/CLionProjects/OpenGL/src/IndexBuffer.cpp" "/home/luis/CLionProjects/OpenGL/build/CMakeFiles/OpenGL.dir/src/IndexBuffer.cpp.o"
+  "/home/luis/CLionProjects/OpenGL/src/Renderer.cpp" "/home/luis/CLionProjects/OpenGL/build/CMakeFiles/OpenGL.dir/src/Renderer.cpp.o"
+  "/home/luis/CLionProjects/OpenGL/src/VertexBuffer.cpp" "/home/luis/CLionProjects/OpenGL/build/CMakeFiles/OpenGL.dir/src/VertexBuffer.cpp.o"
   "/home/luis/CLionProjects/OpenGL/src/main.cpp" "/home/luis/CLionProjects/OpenGL/build/CMakeFiles/OpenGL.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

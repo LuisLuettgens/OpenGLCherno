@@ -70,18 +70,63 @@ CMakeFiles/OpenGL.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGL.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/CLionProjects/OpenGL/src/main.cpp -o CMakeFiles/OpenGL.dir/src/main.cpp.s
 
+CMakeFiles/OpenGL.dir/src/Renderer.cpp.o: CMakeFiles/OpenGL.dir/flags.make
+CMakeFiles/OpenGL.dir/src/Renderer.cpp.o: ../src/Renderer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/OpenGL.dir/src/Renderer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGL.dir/src/Renderer.cpp.o -c /home/luis/CLionProjects/OpenGL/src/Renderer.cpp
+
+CMakeFiles/OpenGL.dir/src/Renderer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGL.dir/src/Renderer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/CLionProjects/OpenGL/src/Renderer.cpp > CMakeFiles/OpenGL.dir/src/Renderer.cpp.i
+
+CMakeFiles/OpenGL.dir/src/Renderer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGL.dir/src/Renderer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/CLionProjects/OpenGL/src/Renderer.cpp -o CMakeFiles/OpenGL.dir/src/Renderer.cpp.s
+
+CMakeFiles/OpenGL.dir/src/VertexBuffer.cpp.o: CMakeFiles/OpenGL.dir/flags.make
+CMakeFiles/OpenGL.dir/src/VertexBuffer.cpp.o: ../src/VertexBuffer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/OpenGL.dir/src/VertexBuffer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGL.dir/src/VertexBuffer.cpp.o -c /home/luis/CLionProjects/OpenGL/src/VertexBuffer.cpp
+
+CMakeFiles/OpenGL.dir/src/VertexBuffer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGL.dir/src/VertexBuffer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/CLionProjects/OpenGL/src/VertexBuffer.cpp > CMakeFiles/OpenGL.dir/src/VertexBuffer.cpp.i
+
+CMakeFiles/OpenGL.dir/src/VertexBuffer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGL.dir/src/VertexBuffer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/CLionProjects/OpenGL/src/VertexBuffer.cpp -o CMakeFiles/OpenGL.dir/src/VertexBuffer.cpp.s
+
+CMakeFiles/OpenGL.dir/src/IndexBuffer.cpp.o: CMakeFiles/OpenGL.dir/flags.make
+CMakeFiles/OpenGL.dir/src/IndexBuffer.cpp.o: ../src/IndexBuffer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/OpenGL.dir/src/IndexBuffer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGL.dir/src/IndexBuffer.cpp.o -c /home/luis/CLionProjects/OpenGL/src/IndexBuffer.cpp
+
+CMakeFiles/OpenGL.dir/src/IndexBuffer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGL.dir/src/IndexBuffer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/CLionProjects/OpenGL/src/IndexBuffer.cpp > CMakeFiles/OpenGL.dir/src/IndexBuffer.cpp.i
+
+CMakeFiles/OpenGL.dir/src/IndexBuffer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGL.dir/src/IndexBuffer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/CLionProjects/OpenGL/src/IndexBuffer.cpp -o CMakeFiles/OpenGL.dir/src/IndexBuffer.cpp.s
+
 # Object files for target OpenGL
 OpenGL_OBJECTS = \
-"CMakeFiles/OpenGL.dir/src/main.cpp.o"
+"CMakeFiles/OpenGL.dir/src/main.cpp.o" \
+"CMakeFiles/OpenGL.dir/src/Renderer.cpp.o" \
+"CMakeFiles/OpenGL.dir/src/VertexBuffer.cpp.o" \
+"CMakeFiles/OpenGL.dir/src/IndexBuffer.cpp.o"
 
 # External object files for target OpenGL
 OpenGL_EXTERNAL_OBJECTS =
 
 ../bin/OpenGL: CMakeFiles/OpenGL.dir/src/main.cpp.o
+../bin/OpenGL: CMakeFiles/OpenGL.dir/src/Renderer.cpp.o
+../bin/OpenGL: CMakeFiles/OpenGL.dir/src/VertexBuffer.cpp.o
+../bin/OpenGL: CMakeFiles/OpenGL.dir/src/IndexBuffer.cpp.o
 ../bin/OpenGL: CMakeFiles/OpenGL.dir/build.make
 ../bin/OpenGL: vendor/GLFW/src/libglfw.so.3.3
 ../bin/OpenGL: CMakeFiles/OpenGL.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/OpenGL"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ../bin/OpenGL"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OpenGL.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

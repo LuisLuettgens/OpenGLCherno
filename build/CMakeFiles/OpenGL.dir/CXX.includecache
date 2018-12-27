@@ -50,6 +50,34 @@ GL/glu.h
 vulkan/vulkan.h
 -
 
+/home/luis/CLionProjects/OpenGL/src/IndexBuffer.cpp
+IndexBuffer.hpp
+/home/luis/CLionProjects/OpenGL/src/IndexBuffer.hpp
+Renderer.hpp
+/home/luis/CLionProjects/OpenGL/src/Renderer.hpp
+
+/home/luis/CLionProjects/OpenGL/src/IndexBuffer.hpp
+
+/home/luis/CLionProjects/OpenGL/src/Renderer.cpp
+Renderer.hpp
+/home/luis/CLionProjects/OpenGL/src/Renderer.hpp
+iostream
+-
+
+/home/luis/CLionProjects/OpenGL/src/Renderer.hpp
+GL/glew.h
+-
+csignal
+-
+
+/home/luis/CLionProjects/OpenGL/src/VertexBuffer.cpp
+VertexBuffer.hpp
+/home/luis/CLionProjects/OpenGL/src/VertexBuffer.hpp
+Renderer.hpp
+/home/luis/CLionProjects/OpenGL/src/Renderer.hpp
+
+/home/luis/CLionProjects/OpenGL/src/VertexBuffer.hpp
+
 /home/luis/CLionProjects/OpenGL/src/main.cpp
 GL/glew.h
 -
@@ -61,4 +89,10 @@ fstream
 -
 sstream
 -
+Renderer.hpp
+/home/luis/CLionProjects/OpenGL/src/Renderer.hpp
+VertexBuffer.hpp
+/home/luis/CLionProjects/OpenGL/src/VertexBuffer.hpp
+IndexBuffer.hpp
+/home/luis/CLionProjects/OpenGL/src/IndexBuffer.hpp
 

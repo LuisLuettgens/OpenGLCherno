@@ -1651,6 +1651,24 @@
 		<Unit filename="/home/luis/CLionProjects/OpenGL/cmake-build-debug/vendor/GLFW/src/glfw_config.h">
 			<Option target="glfw"/>
 		</Unit>
+		<Unit filename="/home/luis/CLionProjects/OpenGL/src/IndexBuffer.cpp">
+			<Option target="OpenGL"/>
+		</Unit>
+		<Unit filename="/home/luis/CLionProjects/OpenGL/src/IndexBuffer.hpp">
+			<Option target="OpenGL"/>
+		</Unit>
+		<Unit filename="/home/luis/CLionProjects/OpenGL/src/Renderer.cpp">
+			<Option target="OpenGL"/>
+		</Unit>
+		<Unit filename="/home/luis/CLionProjects/OpenGL/src/Renderer.hpp">
+			<Option target="OpenGL"/>
+		</Unit>
+		<Unit filename="/home/luis/CLionProjects/OpenGL/src/VertexBuffer.cpp">
+			<Option target="OpenGL"/>
+		</Unit>
+		<Unit filename="/home/luis/CLionProjects/OpenGL/src/VertexBuffer.hpp">
+			<Option target="OpenGL"/>
+		</Unit>
 		<Unit filename="/home/luis/CLionProjects/OpenGL/src/main.cpp">
 			<Option target="OpenGL"/>
 		</Unit>
