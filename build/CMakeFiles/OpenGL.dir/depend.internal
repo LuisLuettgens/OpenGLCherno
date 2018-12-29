@@ -8,6 +8,12 @@ CMakeFiles/OpenGL.dir/src/IndexBuffer.cpp.o
 CMakeFiles/OpenGL.dir/src/Renderer.cpp.o
  /home/luis/CLionProjects/OpenGL/src/Renderer.cpp
  /home/luis/CLionProjects/OpenGL/src/Renderer.hpp
+CMakeFiles/OpenGL.dir/src/VertexArray.cpp.o
+ /home/luis/CLionProjects/OpenGL/src/Renderer.hpp
+ /home/luis/CLionProjects/OpenGL/src/VertexArray.cpp
+ /home/luis/CLionProjects/OpenGL/src/VertexArray.hpp
+ /home/luis/CLionProjects/OpenGL/src/VertexBuffer.hpp
+ /home/luis/CLionProjects/OpenGL/src/VertexBufferLayout.hpp
 CMakeFiles/OpenGL.dir/src/VertexBuffer.cpp.o
  /home/luis/CLionProjects/OpenGL/src/Renderer.hpp
  /home/luis/CLionProjects/OpenGL/src/VertexBuffer.cpp
@@ -16,5 +22,8 @@ CMakeFiles/OpenGL.dir/src/main.cpp.o
  ../vendor/GLFW/include/GLFW/glfw3.h
  /home/luis/CLionProjects/OpenGL/src/IndexBuffer.hpp
  /home/luis/CLionProjects/OpenGL/src/Renderer.hpp
+ /home/luis/CLionProjects/OpenGL/src/VertexArray.hpp
  /home/luis/CLionProjects/OpenGL/src/VertexBuffer.hpp
+ /home/luis/CLionProjects/OpenGL/src/VertexBufferLayout.hpp
+ /home/luis/CLionProjects/OpenGL/src/VertexBufferLayout.tpp
  /home/luis/CLionProjects/OpenGL/src/main.cpp

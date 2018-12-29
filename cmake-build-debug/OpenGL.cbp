@@ -1663,10 +1663,19 @@
 		<Unit filename="/home/luis/CLionProjects/OpenGL/src/Renderer.hpp">
 			<Option target="OpenGL"/>
 		</Unit>
+		<Unit filename="/home/luis/CLionProjects/OpenGL/src/VertexArray.cpp">
+			<Option target="OpenGL"/>
+		</Unit>
+		<Unit filename="/home/luis/CLionProjects/OpenGL/src/VertexArray.hpp">
+			<Option target="OpenGL"/>
+		</Unit>
 		<Unit filename="/home/luis/CLionProjects/OpenGL/src/VertexBuffer.cpp">
 			<Option target="OpenGL"/>
 		</Unit>
 		<Unit filename="/home/luis/CLionProjects/OpenGL/src/VertexBuffer.hpp">
+			<Option target="OpenGL"/>
+		</Unit>
+		<Unit filename="/home/luis/CLionProjects/OpenGL/src/VertexBufferLayout.hpp">
 			<Option target="OpenGL"/>
 		</Unit>
 		<Unit filename="/home/luis/CLionProjects/OpenGL/src/main.cpp">

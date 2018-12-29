@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/luis/CLionProjects/OpenGL/src/IndexBuffer.cpp" "/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles/OpenGL.dir/src/IndexBuffer.cpp.o"
   "/home/luis/CLionProjects/OpenGL/src/Renderer.cpp" "/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles/OpenGL.dir/src/Renderer.cpp.o"
+  "/home/luis/CLionProjects/OpenGL/src/VertexArray.cpp" "/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles/OpenGL.dir/src/VertexArray.cpp.o"
   "/home/luis/CLionProjects/OpenGL/src/VertexBuffer.cpp" "/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles/OpenGL.dir/src/VertexBuffer.cpp.o"
   "/home/luis/CLionProjects/OpenGL/src/main.cpp" "/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles/OpenGL.dir/src/main.cpp.o"
   )

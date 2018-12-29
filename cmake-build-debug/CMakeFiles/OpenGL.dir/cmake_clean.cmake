@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/OpenGL.dir/src/Renderer.cpp.o"
   "CMakeFiles/OpenGL.dir/src/VertexBuffer.cpp.o"
   "CMakeFiles/OpenGL.dir/src/IndexBuffer.cpp.o"
+  "CMakeFiles/OpenGL.dir/src/VertexArray.cpp.o"
   "../bin/OpenGL.pdb"
   "../bin/OpenGL"
 )

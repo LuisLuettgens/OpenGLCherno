@@ -8,6 +8,12 @@ CMakeFiles/OpenGL.dir/src/IndexBuffer.cpp.o: ../src/Renderer.hpp
 CMakeFiles/OpenGL.dir/src/Renderer.cpp.o: ../src/Renderer.cpp
 CMakeFiles/OpenGL.dir/src/Renderer.cpp.o: ../src/Renderer.hpp
 
+CMakeFiles/OpenGL.dir/src/VertexArray.cpp.o: ../src/Renderer.hpp
+CMakeFiles/OpenGL.dir/src/VertexArray.cpp.o: ../src/VertexArray.cpp
+CMakeFiles/OpenGL.dir/src/VertexArray.cpp.o: ../src/VertexArray.hpp
+CMakeFiles/OpenGL.dir/src/VertexArray.cpp.o: ../src/VertexBuffer.hpp
+CMakeFiles/OpenGL.dir/src/VertexArray.cpp.o: ../src/VertexBufferLayout.hpp
+
 CMakeFiles/OpenGL.dir/src/VertexBuffer.cpp.o: ../src/Renderer.hpp
 CMakeFiles/OpenGL.dir/src/VertexBuffer.cpp.o: ../src/VertexBuffer.cpp
 CMakeFiles/OpenGL.dir/src/VertexBuffer.cpp.o: ../src/VertexBuffer.hpp
@@ -15,6 +21,9 @@ CMakeFiles/OpenGL.dir/src/VertexBuffer.cpp.o: ../src/VertexBuffer.hpp
 CMakeFiles/OpenGL.dir/src/main.cpp.o: ../vendor/GLFW/include/GLFW/glfw3.h
 CMakeFiles/OpenGL.dir/src/main.cpp.o: ../src/IndexBuffer.hpp
 CMakeFiles/OpenGL.dir/src/main.cpp.o: ../src/Renderer.hpp
+CMakeFiles/OpenGL.dir/src/main.cpp.o: ../src/VertexArray.hpp
 CMakeFiles/OpenGL.dir/src/main.cpp.o: ../src/VertexBuffer.hpp
+CMakeFiles/OpenGL.dir/src/main.cpp.o: ../src/VertexBufferLayout.hpp
+CMakeFiles/OpenGL.dir/src/main.cpp.o: ../src/VertexBufferLayout.tpp
 CMakeFiles/OpenGL.dir/src/main.cpp.o: ../src/main.cpp
 

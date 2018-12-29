@@ -70,6 +70,18 @@ GL/glew.h
 csignal
 -
 
+/home/luis/CLionProjects/OpenGL/src/VertexArray.cpp
+VertexArray.hpp
+/home/luis/CLionProjects/OpenGL/src/VertexArray.hpp
+Renderer.hpp
+/home/luis/CLionProjects/OpenGL/src/Renderer.hpp
+
+/home/luis/CLionProjects/OpenGL/src/VertexArray.hpp
+VertexBuffer.hpp
+/home/luis/CLionProjects/OpenGL/src/VertexBuffer.hpp
+VertexBufferLayout.hpp
+/home/luis/CLionProjects/OpenGL/src/VertexBufferLayout.hpp
+
 /home/luis/CLionProjects/OpenGL/src/VertexBuffer.cpp
 VertexBuffer.hpp
 /home/luis/CLionProjects/OpenGL/src/VertexBuffer.hpp
@@ -77,6 +89,16 @@ Renderer.hpp
 /home/luis/CLionProjects/OpenGL/src/Renderer.hpp
 
 /home/luis/CLionProjects/OpenGL/src/VertexBuffer.hpp
+
+/home/luis/CLionProjects/OpenGL/src/VertexBufferLayout.hpp
+vector
+-
+GL/glew.h
+-
+Renderer.hpp
+/home/luis/CLionProjects/OpenGL/src/Renderer.hpp
+
+/home/luis/CLionProjects/OpenGL/src/VertexBufferLayout.tpp
 
 /home/luis/CLionProjects/OpenGL/src/main.cpp
 GL/glew.h
@@ -95,4 +117,10 @@ VertexBuffer.hpp
 /home/luis/CLionProjects/OpenGL/src/VertexBuffer.hpp
 IndexBuffer.hpp
 /home/luis/CLionProjects/OpenGL/src/IndexBuffer.hpp
+VertexArray.hpp
+/home/luis/CLionProjects/OpenGL/src/VertexArray.hpp
+VertexBufferLayout.hpp
+/home/luis/CLionProjects/OpenGL/src/VertexBufferLayout.hpp
+VertexBufferLayout.tpp
+/home/luis/CLionProjects/OpenGL/src/VertexBufferLayout.tpp
 
