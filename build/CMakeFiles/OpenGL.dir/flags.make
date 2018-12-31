@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++17 -g   -std=gnu++1z
 
 CXX_DEFINES = -DGLFW_DLL
 
-CXX_INCLUDES = -I/home/luis/CLionProjects/OpenGL/vendor/GLFW/include 
+CXX_INCLUDES = -I/home/luis/CLionProjects/OpenGL/vendor/GLFW/include -I/home/luis/CLionProjects/OpenGL/src/vendor 
 

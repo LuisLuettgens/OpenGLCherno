@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = /home/luis/CLionProjects/OpenGL/cmake-build-debug
 CMakeFiles/OpenGL.dir/all: vendor/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f CMakeFiles/OpenGL.dir/build.make CMakeFiles/OpenGL.dir/depend
 	$(MAKE) -f CMakeFiles/OpenGL.dir/build.make CMakeFiles/OpenGL.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target OpenGL"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target OpenGL"
 .PHONY : CMakeFiles/OpenGL.dir/all
 
 # Include target in all.
@@ -81,7 +81,7 @@ all: CMakeFiles/OpenGL.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/OpenGL.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 23
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/OpenGL.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/OpenGL.dir/rule
@@ -183,7 +183,7 @@ vendor/GLFW/src/preinstall:
 vendor/GLFW/src/CMakeFiles/glfw.dir/all:
 	$(MAKE) -f vendor/GLFW/src/CMakeFiles/glfw.dir/build.make vendor/GLFW/src/CMakeFiles/glfw.dir/depend
 	$(MAKE) -f vendor/GLFW/src/CMakeFiles/glfw.dir/build.make vendor/GLFW/src/CMakeFiles/glfw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=26,27,28,29,30,31,32,33,34,35,36,37,38,39 "Built target glfw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=30,31,32,33,34,35,36,37,38,39,40,41,42 "Built target glfw"
 .PHONY : vendor/GLFW/src/CMakeFiles/glfw.dir/all
 
 # Include target in all.
@@ -193,7 +193,7 @@ all: vendor/GLFW/src/CMakeFiles/glfw.dir/all
 
 # Build rule for subdir invocation for target.
 vendor/GLFW/src/CMakeFiles/glfw.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 vendor/GLFW/src/CMakeFiles/glfw.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 0
 .PHONY : vendor/GLFW/src/CMakeFiles/glfw.dir/rule
@@ -264,7 +264,7 @@ all: vendor/GLFW/examples/CMakeFiles/wave.dir/all
 
 # Build rule for subdir invocation for target.
 vendor/GLFW/examples/CMakeFiles/wave.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 vendor/GLFW/examples/CMakeFiles/wave.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 0
 .PHONY : vendor/GLFW/examples/CMakeFiles/wave.dir/rule
@@ -291,7 +291,7 @@ clean: vendor/GLFW/examples/CMakeFiles/wave.dir/clean
 vendor/GLFW/examples/CMakeFiles/simple.dir/all: vendor/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f vendor/GLFW/examples/CMakeFiles/simple.dir/build.make vendor/GLFW/examples/CMakeFiles/simple.dir/depend
 	$(MAKE) -f vendor/GLFW/examples/CMakeFiles/simple.dir/build.make vendor/GLFW/examples/CMakeFiles/simple.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=79,80 "Built target simple"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=80,81 "Built target simple"
 .PHONY : vendor/GLFW/examples/CMakeFiles/simple.dir/all
 
 # Include target in all.
@@ -301,7 +301,7 @@ all: vendor/GLFW/examples/CMakeFiles/simple.dir/all
 
 # Build rule for subdir invocation for target.
 vendor/GLFW/examples/CMakeFiles/simple.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 vendor/GLFW/examples/CMakeFiles/simple.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 0
 .PHONY : vendor/GLFW/examples/CMakeFiles/simple.dir/rule
@@ -328,7 +328,7 @@ clean: vendor/GLFW/examples/CMakeFiles/simple.dir/clean
 vendor/GLFW/examples/CMakeFiles/gears.dir/all: vendor/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f vendor/GLFW/examples/CMakeFiles/gears.dir/build.make vendor/GLFW/examples/CMakeFiles/gears.dir/depend
 	$(MAKE) -f vendor/GLFW/examples/CMakeFiles/gears.dir/build.make vendor/GLFW/examples/CMakeFiles/gears.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=23,24,25 "Built target gears"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=27,28,29 "Built target gears"
 .PHONY : vendor/GLFW/examples/CMakeFiles/gears.dir/all
 
 # Include target in all.
@@ -338,7 +338,7 @@ all: vendor/GLFW/examples/CMakeFiles/gears.dir/all
 
 # Build rule for subdir invocation for target.
 vendor/GLFW/examples/CMakeFiles/gears.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 16
 	$(MAKE) -f CMakeFiles/Makefile2 vendor/GLFW/examples/CMakeFiles/gears.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 0
 .PHONY : vendor/GLFW/examples/CMakeFiles/gears.dir/rule
@@ -365,7 +365,7 @@ clean: vendor/GLFW/examples/CMakeFiles/gears.dir/clean
 vendor/GLFW/examples/CMakeFiles/boing.dir/all: vendor/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f vendor/GLFW/examples/CMakeFiles/boing.dir/build.make vendor/GLFW/examples/CMakeFiles/boing.dir/depend
 	$(MAKE) -f vendor/GLFW/examples/CMakeFiles/boing.dir/build.make vendor/GLFW/examples/CMakeFiles/boing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=6,7 "Built target boing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target boing"
 .PHONY : vendor/GLFW/examples/CMakeFiles/boing.dir/all
 
 # Include target in all.
@@ -375,7 +375,7 @@ all: vendor/GLFW/examples/CMakeFiles/boing.dir/all
 
 # Build rule for subdir invocation for target.
 vendor/GLFW/examples/CMakeFiles/boing.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 vendor/GLFW/examples/CMakeFiles/boing.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 0
 .PHONY : vendor/GLFW/examples/CMakeFiles/boing.dir/rule
@@ -402,7 +402,7 @@ clean: vendor/GLFW/examples/CMakeFiles/boing.dir/clean
 vendor/GLFW/examples/CMakeFiles/heightmap.dir/all: vendor/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f vendor/GLFW/examples/CMakeFiles/heightmap.dir/build.make vendor/GLFW/examples/CMakeFiles/heightmap.dir/depend
 	$(MAKE) -f vendor/GLFW/examples/CMakeFiles/heightmap.dir/build.make vendor/GLFW/examples/CMakeFiles/heightmap.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=43,44,45 "Built target heightmap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=47,48 "Built target heightmap"
 .PHONY : vendor/GLFW/examples/CMakeFiles/heightmap.dir/all
 
 # Include target in all.
@@ -412,7 +412,7 @@ all: vendor/GLFW/examples/CMakeFiles/heightmap.dir/all
 
 # Build rule for subdir invocation for target.
 vendor/GLFW/examples/CMakeFiles/heightmap.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 vendor/GLFW/examples/CMakeFiles/heightmap.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 0
 .PHONY : vendor/GLFW/examples/CMakeFiles/heightmap.dir/rule
@@ -439,7 +439,7 @@ clean: vendor/GLFW/examples/CMakeFiles/heightmap.dir/clean
 vendor/GLFW/examples/CMakeFiles/splitview.dir/all: vendor/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f vendor/GLFW/examples/CMakeFiles/splitview.dir/build.make vendor/GLFW/examples/CMakeFiles/splitview.dir/depend
 	$(MAKE) -f vendor/GLFW/examples/CMakeFiles/splitview.dir/build.make vendor/GLFW/examples/CMakeFiles/splitview.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=81,82,83 "Built target splitview"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=82,83,84 "Built target splitview"
 .PHONY : vendor/GLFW/examples/CMakeFiles/splitview.dir/all
 
 # Include target in all.
@@ -449,7 +449,7 @@ all: vendor/GLFW/examples/CMakeFiles/splitview.dir/all
 
 # Build rule for subdir invocation for target.
 vendor/GLFW/examples/CMakeFiles/splitview.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 16
 	$(MAKE) -f CMakeFiles/Makefile2 vendor/GLFW/examples/CMakeFiles/splitview.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 0
 .PHONY : vendor/GLFW/examples/CMakeFiles/splitview.dir/rule
@@ -476,7 +476,7 @@ clean: vendor/GLFW/examples/CMakeFiles/splitview.dir/clean
 vendor/GLFW/examples/CMakeFiles/offscreen.dir/all: vendor/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f vendor/GLFW/examples/CMakeFiles/offscreen.dir/build.make vendor/GLFW/examples/CMakeFiles/offscreen.dir/depend
 	$(MAKE) -f vendor/GLFW/examples/CMakeFiles/offscreen.dir/build.make vendor/GLFW/examples/CMakeFiles/offscreen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=64,65,66 "Built target offscreen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=66,67,68 "Built target offscreen"
 .PHONY : vendor/GLFW/examples/CMakeFiles/offscreen.dir/all
 
 # Include target in all.
@@ -486,7 +486,7 @@ all: vendor/GLFW/examples/CMakeFiles/offscreen.dir/all
 
 # Build rule for subdir invocation for target.
 vendor/GLFW/examples/CMakeFiles/offscreen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 16
 	$(MAKE) -f CMakeFiles/Makefile2 vendor/GLFW/examples/CMakeFiles/offscreen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 0
 .PHONY : vendor/GLFW/examples/CMakeFiles/offscreen.dir/rule
@@ -513,7 +513,7 @@ clean: vendor/GLFW/examples/CMakeFiles/offscreen.dir/clean
 vendor/GLFW/examples/CMakeFiles/particles.dir/all: vendor/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f vendor/GLFW/examples/CMakeFiles/particles.dir/build.make vendor/GLFW/examples/CMakeFiles/particles.dir/depend
 	$(MAKE) -f vendor/GLFW/examples/CMakeFiles/particles.dir/build.make vendor/GLFW/examples/CMakeFiles/particles.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=69,70,71,72,73 "Built target particles"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=71,72,73,74 "Built target particles"
 .PHONY : vendor/GLFW/examples/CMakeFiles/particles.dir/all
 
 # Include target in all.
@@ -523,7 +523,7 @@ all: vendor/GLFW/examples/CMakeFiles/particles.dir/all
 
 # Build rule for subdir invocation for target.
 vendor/GLFW/examples/CMakeFiles/particles.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 17
 	$(MAKE) -f CMakeFiles/Makefile2 vendor/GLFW/examples/CMakeFiles/particles.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 0
 .PHONY : vendor/GLFW/examples/CMakeFiles/particles.dir/rule
@@ -550,7 +550,7 @@ clean: vendor/GLFW/examples/CMakeFiles/particles.dir/clean
 vendor/GLFW/examples/CMakeFiles/sharing.dir/all: vendor/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f vendor/GLFW/examples/CMakeFiles/sharing.dir/build.make vendor/GLFW/examples/CMakeFiles/sharing.dir/depend
 	$(MAKE) -f vendor/GLFW/examples/CMakeFiles/sharing.dir/build.make vendor/GLFW/examples/CMakeFiles/sharing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=76,77,78 "Built target sharing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=77,78,79 "Built target sharing"
 .PHONY : vendor/GLFW/examples/CMakeFiles/sharing.dir/all
 
 # Include target in all.
@@ -560,7 +560,7 @@ all: vendor/GLFW/examples/CMakeFiles/sharing.dir/all
 
 # Build rule for subdir invocation for target.
 vendor/GLFW/examples/CMakeFiles/sharing.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 16
 	$(MAKE) -f CMakeFiles/Makefile2 vendor/GLFW/examples/CMakeFiles/sharing.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 0
 .PHONY : vendor/GLFW/examples/CMakeFiles/sharing.dir/rule
@@ -641,7 +641,7 @@ vendor/GLFW/tests/preinstall:
 vendor/GLFW/tests/CMakeFiles/title.dir/all: vendor/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f vendor/GLFW/tests/CMakeFiles/title.dir/build.make vendor/GLFW/tests/CMakeFiles/title.dir/depend
 	$(MAKE) -f vendor/GLFW/tests/CMakeFiles/title.dir/build.make vendor/GLFW/tests/CMakeFiles/title.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=92,93,94 "Built target title"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=93,94 "Built target title"
 .PHONY : vendor/GLFW/tests/CMakeFiles/title.dir/all
 
 # Include target in all.
@@ -651,7 +651,7 @@ all: vendor/GLFW/tests/CMakeFiles/title.dir/all
 
 # Build rule for subdir invocation for target.
 vendor/GLFW/tests/CMakeFiles/title.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 vendor/GLFW/tests/CMakeFiles/title.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 0
 .PHONY : vendor/GLFW/tests/CMakeFiles/title.dir/rule
@@ -678,7 +678,7 @@ clean: vendor/GLFW/tests/CMakeFiles/title.dir/clean
 vendor/GLFW/tests/CMakeFiles/timeout.dir/all: vendor/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f vendor/GLFW/tests/CMakeFiles/timeout.dir/build.make vendor/GLFW/tests/CMakeFiles/timeout.dir/depend
 	$(MAKE) -f vendor/GLFW/tests/CMakeFiles/timeout.dir/build.make vendor/GLFW/tests/CMakeFiles/timeout.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=90,91 "Built target timeout"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=90,91,92 "Built target timeout"
 .PHONY : vendor/GLFW/tests/CMakeFiles/timeout.dir/all
 
 # Include target in all.
@@ -715,7 +715,7 @@ clean: vendor/GLFW/tests/CMakeFiles/timeout.dir/clean
 vendor/GLFW/tests/CMakeFiles/monitors.dir/all: vendor/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f vendor/GLFW/tests/CMakeFiles/monitors.dir/build.make vendor/GLFW/tests/CMakeFiles/monitors.dir/depend
 	$(MAKE) -f vendor/GLFW/tests/CMakeFiles/monitors.dir/build.make vendor/GLFW/tests/CMakeFiles/monitors.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=58,59,60 "Built target monitors"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=60,61,62 "Built target monitors"
 .PHONY : vendor/GLFW/tests/CMakeFiles/monitors.dir/all
 
 # Include target in all.
@@ -725,7 +725,7 @@ all: vendor/GLFW/tests/CMakeFiles/monitors.dir/all
 
 # Build rule for subdir invocation for target.
 vendor/GLFW/tests/CMakeFiles/monitors.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 16
 	$(MAKE) -f CMakeFiles/Makefile2 vendor/GLFW/tests/CMakeFiles/monitors.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 0
 .PHONY : vendor/GLFW/tests/CMakeFiles/monitors.dir/rule
@@ -752,7 +752,7 @@ clean: vendor/GLFW/tests/CMakeFiles/monitors.dir/clean
 vendor/GLFW/tests/CMakeFiles/clipboard.dir/all: vendor/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f vendor/GLFW/tests/CMakeFiles/clipboard.dir/build.make vendor/GLFW/tests/CMakeFiles/clipboard.dir/depend
 	$(MAKE) -f vendor/GLFW/tests/CMakeFiles/clipboard.dir/build.make vendor/GLFW/tests/CMakeFiles/clipboard.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=8,9,10 "Built target clipboard"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=13,14,15 "Built target clipboard"
 .PHONY : vendor/GLFW/tests/CMakeFiles/clipboard.dir/all
 
 # Include target in all.
@@ -762,7 +762,7 @@ all: vendor/GLFW/tests/CMakeFiles/clipboard.dir/all
 
 # Build rule for subdir invocation for target.
 vendor/GLFW/tests/CMakeFiles/clipboard.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 16
 	$(MAKE) -f CMakeFiles/Makefile2 vendor/GLFW/tests/CMakeFiles/clipboard.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 0
 .PHONY : vendor/GLFW/tests/CMakeFiles/clipboard.dir/rule
@@ -789,7 +789,7 @@ clean: vendor/GLFW/tests/CMakeFiles/clipboard.dir/clean
 vendor/GLFW/tests/CMakeFiles/cursor.dir/all: vendor/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f vendor/GLFW/tests/CMakeFiles/cursor.dir/build.make vendor/GLFW/tests/CMakeFiles/cursor.dir/depend
 	$(MAKE) -f vendor/GLFW/tests/CMakeFiles/cursor.dir/build.make vendor/GLFW/tests/CMakeFiles/cursor.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=11,12,13 "Built target cursor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=16,17,18 "Built target cursor"
 .PHONY : vendor/GLFW/tests/CMakeFiles/cursor.dir/all
 
 # Include target in all.
@@ -799,7 +799,7 @@ all: vendor/GLFW/tests/CMakeFiles/cursor.dir/all
 
 # Build rule for subdir invocation for target.
 vendor/GLFW/tests/CMakeFiles/cursor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 16
 	$(MAKE) -f CMakeFiles/Makefile2 vendor/GLFW/tests/CMakeFiles/cursor.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 0
 .PHONY : vendor/GLFW/tests/CMakeFiles/cursor.dir/rule
@@ -826,7 +826,7 @@ clean: vendor/GLFW/tests/CMakeFiles/cursor.dir/clean
 vendor/GLFW/tests/CMakeFiles/msaa.dir/all: vendor/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f vendor/GLFW/tests/CMakeFiles/msaa.dir/build.make vendor/GLFW/tests/CMakeFiles/msaa.dir/depend
 	$(MAKE) -f vendor/GLFW/tests/CMakeFiles/msaa.dir/build.make vendor/GLFW/tests/CMakeFiles/msaa.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=61,62,63 "Built target msaa"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=63,64,65 "Built target msaa"
 .PHONY : vendor/GLFW/tests/CMakeFiles/msaa.dir/all
 
 # Include target in all.
@@ -836,7 +836,7 @@ all: vendor/GLFW/tests/CMakeFiles/msaa.dir/all
 
 # Build rule for subdir invocation for target.
 vendor/GLFW/tests/CMakeFiles/msaa.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 16
 	$(MAKE) -f CMakeFiles/Makefile2 vendor/GLFW/tests/CMakeFiles/msaa.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 0
 .PHONY : vendor/GLFW/tests/CMakeFiles/msaa.dir/rule
@@ -863,7 +863,7 @@ clean: vendor/GLFW/tests/CMakeFiles/msaa.dir/clean
 vendor/GLFW/tests/CMakeFiles/glfwinfo.dir/all: vendor/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f vendor/GLFW/tests/CMakeFiles/glfwinfo.dir/build.make vendor/GLFW/tests/CMakeFiles/glfwinfo.dir/depend
 	$(MAKE) -f vendor/GLFW/tests/CMakeFiles/glfwinfo.dir/build.make vendor/GLFW/tests/CMakeFiles/glfwinfo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=40,41,42 "Built target glfwinfo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=43,44,45,46 "Built target glfwinfo"
 .PHONY : vendor/GLFW/tests/CMakeFiles/glfwinfo.dir/all
 
 # Include target in all.
@@ -900,7 +900,7 @@ clean: vendor/GLFW/tests/CMakeFiles/glfwinfo.dir/clean
 vendor/GLFW/tests/CMakeFiles/threads.dir/all: vendor/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f vendor/GLFW/tests/CMakeFiles/threads.dir/build.make vendor/GLFW/tests/CMakeFiles/threads.dir/depend
 	$(MAKE) -f vendor/GLFW/tests/CMakeFiles/threads.dir/build.make vendor/GLFW/tests/CMakeFiles/threads.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=86,87,88,89 "Built target threads"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=87,88,89 "Built target threads"
 .PHONY : vendor/GLFW/tests/CMakeFiles/threads.dir/all
 
 # Include target in all.
@@ -910,7 +910,7 @@ all: vendor/GLFW/tests/CMakeFiles/threads.dir/all
 
 # Build rule for subdir invocation for target.
 vendor/GLFW/tests/CMakeFiles/threads.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 16
 	$(MAKE) -f CMakeFiles/Makefile2 vendor/GLFW/tests/CMakeFiles/threads.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 0
 .PHONY : vendor/GLFW/tests/CMakeFiles/threads.dir/rule
@@ -937,7 +937,7 @@ clean: vendor/GLFW/tests/CMakeFiles/threads.dir/clean
 vendor/GLFW/tests/CMakeFiles/reopen.dir/all: vendor/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f vendor/GLFW/tests/CMakeFiles/reopen.dir/build.make vendor/GLFW/tests/CMakeFiles/reopen.dir/depend
 	$(MAKE) -f vendor/GLFW/tests/CMakeFiles/reopen.dir/build.make vendor/GLFW/tests/CMakeFiles/reopen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=74,75 "Built target reopen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=75,76 "Built target reopen"
 .PHONY : vendor/GLFW/tests/CMakeFiles/reopen.dir/all
 
 # Include target in all.
@@ -947,7 +947,7 @@ all: vendor/GLFW/tests/CMakeFiles/reopen.dir/all
 
 # Build rule for subdir invocation for target.
 vendor/GLFW/tests/CMakeFiles/reopen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 vendor/GLFW/tests/CMakeFiles/reopen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 0
 .PHONY : vendor/GLFW/tests/CMakeFiles/reopen.dir/rule
@@ -974,7 +974,7 @@ clean: vendor/GLFW/tests/CMakeFiles/reopen.dir/clean
 vendor/GLFW/tests/CMakeFiles/opacity.dir/all: vendor/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f vendor/GLFW/tests/CMakeFiles/opacity.dir/build.make vendor/GLFW/tests/CMakeFiles/opacity.dir/depend
 	$(MAKE) -f vendor/GLFW/tests/CMakeFiles/opacity.dir/build.make vendor/GLFW/tests/CMakeFiles/opacity.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=67,68 "Built target opacity"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=69,70 "Built target opacity"
 .PHONY : vendor/GLFW/tests/CMakeFiles/opacity.dir/all
 
 # Include target in all.
@@ -984,7 +984,7 @@ all: vendor/GLFW/tests/CMakeFiles/opacity.dir/all
 
 # Build rule for subdir invocation for target.
 vendor/GLFW/tests/CMakeFiles/opacity.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 vendor/GLFW/tests/CMakeFiles/opacity.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 0
 .PHONY : vendor/GLFW/tests/CMakeFiles/opacity.dir/rule
@@ -1011,7 +1011,7 @@ clean: vendor/GLFW/tests/CMakeFiles/opacity.dir/clean
 vendor/GLFW/tests/CMakeFiles/iconify.dir/all: vendor/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f vendor/GLFW/tests/CMakeFiles/iconify.dir/build.make vendor/GLFW/tests/CMakeFiles/iconify.dir/depend
 	$(MAKE) -f vendor/GLFW/tests/CMakeFiles/iconify.dir/build.make vendor/GLFW/tests/CMakeFiles/iconify.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=48,49,50,51 "Built target iconify"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=51,52,53 "Built target iconify"
 .PHONY : vendor/GLFW/tests/CMakeFiles/iconify.dir/all
 
 # Include target in all.
@@ -1021,7 +1021,7 @@ all: vendor/GLFW/tests/CMakeFiles/iconify.dir/all
 
 # Build rule for subdir invocation for target.
 vendor/GLFW/tests/CMakeFiles/iconify.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 16
 	$(MAKE) -f CMakeFiles/Makefile2 vendor/GLFW/tests/CMakeFiles/iconify.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 0
 .PHONY : vendor/GLFW/tests/CMakeFiles/iconify.dir/rule
@@ -1048,7 +1048,7 @@ clean: vendor/GLFW/tests/CMakeFiles/iconify.dir/clean
 vendor/GLFW/tests/CMakeFiles/gamma.dir/all: vendor/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f vendor/GLFW/tests/CMakeFiles/gamma.dir/build.make vendor/GLFW/tests/CMakeFiles/gamma.dir/depend
 	$(MAKE) -f vendor/GLFW/tests/CMakeFiles/gamma.dir/build.make vendor/GLFW/tests/CMakeFiles/gamma.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target gamma"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target gamma"
 .PHONY : vendor/GLFW/tests/CMakeFiles/gamma.dir/all
 
 # Include target in all.
@@ -1058,7 +1058,7 @@ all: vendor/GLFW/tests/CMakeFiles/gamma.dir/all
 
 # Build rule for subdir invocation for target.
 vendor/GLFW/tests/CMakeFiles/gamma.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 vendor/GLFW/tests/CMakeFiles/gamma.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 0
 .PHONY : vendor/GLFW/tests/CMakeFiles/gamma.dir/rule
@@ -1085,7 +1085,7 @@ clean: vendor/GLFW/tests/CMakeFiles/gamma.dir/clean
 vendor/GLFW/tests/CMakeFiles/events.dir/all: vendor/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f vendor/GLFW/tests/CMakeFiles/events.dir/build.make vendor/GLFW/tests/CMakeFiles/events.dir/depend
 	$(MAKE) -f vendor/GLFW/tests/CMakeFiles/events.dir/build.make vendor/GLFW/tests/CMakeFiles/events.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=17,18,19,20 "Built target events"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=22,23,24 "Built target events"
 .PHONY : vendor/GLFW/tests/CMakeFiles/events.dir/all
 
 # Include target in all.
@@ -1095,7 +1095,7 @@ all: vendor/GLFW/tests/CMakeFiles/events.dir/all
 
 # Build rule for subdir invocation for target.
 vendor/GLFW/tests/CMakeFiles/events.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 16
 	$(MAKE) -f CMakeFiles/Makefile2 vendor/GLFW/tests/CMakeFiles/events.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 0
 .PHONY : vendor/GLFW/tests/CMakeFiles/events.dir/rule
@@ -1122,7 +1122,7 @@ clean: vendor/GLFW/tests/CMakeFiles/events.dir/clean
 vendor/GLFW/tests/CMakeFiles/icon.dir/all: vendor/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f vendor/GLFW/tests/CMakeFiles/icon.dir/build.make vendor/GLFW/tests/CMakeFiles/icon.dir/depend
 	$(MAKE) -f vendor/GLFW/tests/CMakeFiles/icon.dir/build.make vendor/GLFW/tests/CMakeFiles/icon.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=46,47 "Built target icon"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=49,50 "Built target icon"
 .PHONY : vendor/GLFW/tests/CMakeFiles/icon.dir/all
 
 # Include target in all.
@@ -1132,7 +1132,7 @@ all: vendor/GLFW/tests/CMakeFiles/icon.dir/all
 
 # Build rule for subdir invocation for target.
 vendor/GLFW/tests/CMakeFiles/icon.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 vendor/GLFW/tests/CMakeFiles/icon.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 0
 .PHONY : vendor/GLFW/tests/CMakeFiles/icon.dir/rule
@@ -1159,7 +1159,7 @@ clean: vendor/GLFW/tests/CMakeFiles/icon.dir/clean
 vendor/GLFW/tests/CMakeFiles/joysticks.dir/all: vendor/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f vendor/GLFW/tests/CMakeFiles/joysticks.dir/build.make vendor/GLFW/tests/CMakeFiles/joysticks.dir/depend
 	$(MAKE) -f vendor/GLFW/tests/CMakeFiles/joysticks.dir/build.make vendor/GLFW/tests/CMakeFiles/joysticks.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=55,56,57 "Built target joysticks"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=58,59 "Built target joysticks"
 .PHONY : vendor/GLFW/tests/CMakeFiles/joysticks.dir/all
 
 # Include target in all.
@@ -1169,7 +1169,7 @@ all: vendor/GLFW/tests/CMakeFiles/joysticks.dir/all
 
 # Build rule for subdir invocation for target.
 vendor/GLFW/tests/CMakeFiles/joysticks.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 vendor/GLFW/tests/CMakeFiles/joysticks.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 0
 .PHONY : vendor/GLFW/tests/CMakeFiles/joysticks.dir/rule
@@ -1206,7 +1206,7 @@ all: vendor/GLFW/tests/CMakeFiles/windows.dir/all
 
 # Build rule for subdir invocation for target.
 vendor/GLFW/tests/CMakeFiles/windows.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 17
 	$(MAKE) -f CMakeFiles/Makefile2 vendor/GLFW/tests/CMakeFiles/windows.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 0
 .PHONY : vendor/GLFW/tests/CMakeFiles/windows.dir/rule
@@ -1233,7 +1233,7 @@ clean: vendor/GLFW/tests/CMakeFiles/windows.dir/clean
 vendor/GLFW/tests/CMakeFiles/empty.dir/all: vendor/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f vendor/GLFW/tests/CMakeFiles/empty.dir/build.make vendor/GLFW/tests/CMakeFiles/empty.dir/depend
 	$(MAKE) -f vendor/GLFW/tests/CMakeFiles/empty.dir/build.make vendor/GLFW/tests/CMakeFiles/empty.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=14,15,16 "Built target empty"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=19,20,21 "Built target empty"
 .PHONY : vendor/GLFW/tests/CMakeFiles/empty.dir/all
 
 # Include target in all.
@@ -1243,7 +1243,7 @@ all: vendor/GLFW/tests/CMakeFiles/empty.dir/all
 
 # Build rule for subdir invocation for target.
 vendor/GLFW/tests/CMakeFiles/empty.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 16
 	$(MAKE) -f CMakeFiles/Makefile2 vendor/GLFW/tests/CMakeFiles/empty.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 0
 .PHONY : vendor/GLFW/tests/CMakeFiles/empty.dir/rule
@@ -1270,7 +1270,7 @@ clean: vendor/GLFW/tests/CMakeFiles/empty.dir/clean
 vendor/GLFW/tests/CMakeFiles/inputlag.dir/all: vendor/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f vendor/GLFW/tests/CMakeFiles/inputlag.dir/build.make vendor/GLFW/tests/CMakeFiles/inputlag.dir/depend
 	$(MAKE) -f vendor/GLFW/tests/CMakeFiles/inputlag.dir/build.make vendor/GLFW/tests/CMakeFiles/inputlag.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=52,53,54 "Built target inputlag"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=54,55,56,57 "Built target inputlag"
 .PHONY : vendor/GLFW/tests/CMakeFiles/inputlag.dir/all
 
 # Include target in all.
@@ -1307,7 +1307,7 @@ clean: vendor/GLFW/tests/CMakeFiles/inputlag.dir/clean
 vendor/GLFW/tests/CMakeFiles/tearing.dir/all: vendor/GLFW/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f vendor/GLFW/tests/CMakeFiles/tearing.dir/build.make vendor/GLFW/tests/CMakeFiles/tearing.dir/depend
 	$(MAKE) -f vendor/GLFW/tests/CMakeFiles/tearing.dir/build.make vendor/GLFW/tests/CMakeFiles/tearing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=84,85 "Built target tearing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=85,86 "Built target tearing"
 .PHONY : vendor/GLFW/tests/CMakeFiles/tearing.dir/all
 
 # Include target in all.
@@ -1317,7 +1317,7 @@ all: vendor/GLFW/tests/CMakeFiles/tearing.dir/all
 
 # Build rule for subdir invocation for target.
 vendor/GLFW/tests/CMakeFiles/tearing.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 vendor/GLFW/tests/CMakeFiles/tearing.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles 0
 .PHONY : vendor/GLFW/tests/CMakeFiles/tearing.dir/rule

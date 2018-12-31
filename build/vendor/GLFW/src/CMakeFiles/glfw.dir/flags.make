@@ -6,7 +6,7 @@ C_FLAGS = -fPIC   -Wall -fvisibility=hidden
 
 C_DEFINES = -D_GLFW_USE_CONFIG_H -Dglfw_EXPORTS
 
-C_INCLUDES = -I/home/luis/CLionProjects/OpenGL/vendor/GLFW/include -I/home/luis/CLionProjects/OpenGL/vendor/GLFW/src -I/home/luis/CLionProjects/OpenGL/build/vendor/GLFW/src 
+C_INCLUDES = -I/home/luis/CLionProjects/OpenGL/vendor/GLFW/include -I/home/luis/CLionProjects/OpenGL/src/vendor -I/home/luis/CLionProjects/OpenGL/vendor/GLFW/src -I/home/luis/CLionProjects/OpenGL/build/vendor/GLFW/src 
 
 # Custom flags: vendor/GLFW/src/CMakeFiles/glfw.dir/context.c.o_FLAGS = -Wdeclaration-after-statement
 

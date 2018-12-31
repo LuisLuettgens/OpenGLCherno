@@ -42,11 +42,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62d71c48-c298-4cf8-bf3e-f9245bf621ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VertexArray.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VertexArray.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VertexBufferLayout.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VertexBufferLayout.tpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Shader.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Shader.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Texture.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Texture.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendor/stb_image/stb_image.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendor/stb_image/stb_image.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/OpenGL" beforeDir="false" afterPath="$PROJECT_DIR$/bin/OpenGL" afterDir="false" />
@@ -62,72 +63,209 @@
       <change beforePath="$PROJECT_DIR$/build/CMakeFiles/OpenGL.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/OpenGL.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/CMakeFiles/OpenGL.dir/src/IndexBuffer.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/OpenGL.dir/src/IndexBuffer.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/CMakeFiles/OpenGL.dir/src/Renderer.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/OpenGL.dir/src/Renderer.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/OpenGL.dir/src/VertexArray.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/OpenGL.dir/src/VertexArray.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/CMakeFiles/OpenGL.dir/src/VertexBuffer.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/OpenGL.dir/src/VertexBuffer.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/CMakeFiles/OpenGL.dir/src/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/OpenGL.dir/src/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/examples/CMakeFiles/boing.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/examples/CMakeFiles/boing.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/examples/CMakeFiles/boing.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/examples/CMakeFiles/boing.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/examples/CMakeFiles/boing.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/examples/CMakeFiles/boing.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/examples/CMakeFiles/gears.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/examples/CMakeFiles/gears.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/examples/CMakeFiles/gears.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/examples/CMakeFiles/gears.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/examples/CMakeFiles/gears.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/examples/CMakeFiles/gears.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/examples/CMakeFiles/heightmap.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/examples/CMakeFiles/heightmap.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/examples/CMakeFiles/heightmap.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/examples/CMakeFiles/heightmap.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/examples/CMakeFiles/heightmap.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/examples/CMakeFiles/heightmap.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/examples/CMakeFiles/offscreen.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/examples/CMakeFiles/offscreen.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/examples/CMakeFiles/offscreen.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/examples/CMakeFiles/offscreen.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/examples/CMakeFiles/offscreen.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/examples/CMakeFiles/offscreen.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/examples/CMakeFiles/particles.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/examples/CMakeFiles/particles.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/examples/CMakeFiles/particles.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/examples/CMakeFiles/particles.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/examples/CMakeFiles/particles.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/examples/CMakeFiles/particles.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/examples/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/examples/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/examples/CMakeFiles/sharing.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/examples/CMakeFiles/sharing.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/examples/CMakeFiles/sharing.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/examples/CMakeFiles/sharing.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/examples/CMakeFiles/sharing.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/examples/CMakeFiles/sharing.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/examples/CMakeFiles/simple.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/examples/CMakeFiles/simple.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/examples/CMakeFiles/simple.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/examples/CMakeFiles/simple.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/examples/CMakeFiles/simple.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/examples/CMakeFiles/simple.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/examples/CMakeFiles/splitview.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/examples/CMakeFiles/splitview.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/examples/CMakeFiles/splitview.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/examples/CMakeFiles/splitview.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/examples/CMakeFiles/splitview.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/examples/CMakeFiles/splitview.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/examples/CMakeFiles/wave.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/examples/CMakeFiles/wave.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/examples/CMakeFiles/wave.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/examples/CMakeFiles/wave.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/examples/CMakeFiles/wave.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/examples/CMakeFiles/wave.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/src/CMakeFiles/glfw.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/src/CMakeFiles/glfw.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/src/CMakeFiles/glfw.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/src/CMakeFiles/glfw.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/src/CMakeFiles/glfw.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/src/CMakeFiles/glfw.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/src/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/src/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/clipboard.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/clipboard.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/clipboard.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/clipboard.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/clipboard.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/clipboard.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/cursor.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/cursor.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/cursor.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/cursor.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/cursor.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/cursor.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/empty.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/empty.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/empty.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/empty.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/empty.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/empty.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/events.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/events.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/events.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/events.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/events.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/events.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/gamma.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/gamma.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/gamma.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/gamma.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/gamma.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/gamma.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/glfwinfo.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/glfwinfo.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/glfwinfo.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/glfwinfo.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/glfwinfo.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/glfwinfo.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/icon.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/icon.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/icon.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/icon.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/icon.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/icon.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/iconify.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/iconify.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/iconify.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/iconify.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/iconify.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/iconify.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/inputlag.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/inputlag.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/inputlag.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/inputlag.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/inputlag.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/inputlag.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/joysticks.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/joysticks.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/joysticks.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/joysticks.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/joysticks.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/joysticks.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/monitors.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/monitors.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/monitors.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/monitors.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/monitors.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/monitors.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/msaa.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/msaa.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/msaa.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/msaa.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/msaa.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/msaa.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/opacity.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/opacity.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/opacity.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/opacity.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/opacity.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/opacity.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/reopen.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/reopen.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/reopen.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/reopen.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/reopen.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/reopen.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/tearing.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/tearing.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/tearing.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/tearing.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/tearing.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/tearing.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/threads.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/threads.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/threads.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/threads.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/threads.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/threads.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/timeout.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/timeout.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/timeout.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/timeout.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/timeout.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/timeout.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/title.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/title.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/title.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/title.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/title.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/title.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/windows.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/windows.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/windows.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/vendor/GLFW/tests/CMakeFiles/windows.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGL.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGL.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGL.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGL.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGL.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGL.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGL.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGL.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGL.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGL.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGL.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGL.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGL.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGL.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGL.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGL.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGL.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGL.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OpenGL.dir/src/main.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/OpenGL.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/OpenGL.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/GLFW.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/GLFW.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/examples/CMakeFiles/boing.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/examples/CMakeFiles/boing.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/examples/CMakeFiles/boing.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/examples/CMakeFiles/boing.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/examples/CMakeFiles/boing.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/examples/CMakeFiles/boing.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/examples/CMakeFiles/gears.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/examples/CMakeFiles/gears.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/examples/CMakeFiles/gears.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/examples/CMakeFiles/gears.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/examples/CMakeFiles/gears.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/examples/CMakeFiles/gears.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/examples/CMakeFiles/heightmap.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/examples/CMakeFiles/heightmap.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/examples/CMakeFiles/heightmap.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/examples/CMakeFiles/heightmap.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/examples/CMakeFiles/heightmap.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/examples/CMakeFiles/heightmap.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/examples/CMakeFiles/offscreen.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/examples/CMakeFiles/offscreen.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/examples/CMakeFiles/offscreen.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/examples/CMakeFiles/offscreen.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/examples/CMakeFiles/offscreen.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/examples/CMakeFiles/offscreen.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/examples/CMakeFiles/particles.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/examples/CMakeFiles/particles.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/examples/CMakeFiles/particles.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/examples/CMakeFiles/particles.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/examples/CMakeFiles/particles.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/examples/CMakeFiles/particles.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/examples/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/examples/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/examples/CMakeFiles/sharing.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/examples/CMakeFiles/sharing.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/examples/CMakeFiles/sharing.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/examples/CMakeFiles/sharing.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/examples/CMakeFiles/sharing.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/examples/CMakeFiles/sharing.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/examples/CMakeFiles/simple.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/examples/CMakeFiles/simple.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/examples/CMakeFiles/simple.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/examples/CMakeFiles/simple.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/examples/CMakeFiles/simple.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/examples/CMakeFiles/simple.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/examples/CMakeFiles/splitview.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/examples/CMakeFiles/splitview.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/examples/CMakeFiles/splitview.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/examples/CMakeFiles/splitview.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/examples/CMakeFiles/splitview.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/examples/CMakeFiles/splitview.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/examples/CMakeFiles/wave.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/examples/CMakeFiles/wave.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/examples/CMakeFiles/wave.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/examples/CMakeFiles/wave.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/examples/CMakeFiles/wave.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/examples/CMakeFiles/wave.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/src/CMakeFiles/glfw.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/src/CMakeFiles/glfw.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/src/CMakeFiles/glfw.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/src/CMakeFiles/glfw.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/src/CMakeFiles/glfw.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/src/CMakeFiles/glfw.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/src/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/src/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/clipboard.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/clipboard.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/clipboard.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/clipboard.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/clipboard.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/clipboard.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/cursor.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/cursor.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/cursor.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/cursor.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/cursor.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/cursor.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/empty.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/empty.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/empty.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/empty.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/empty.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/empty.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/events.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/events.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/events.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/events.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/events.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/events.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/gamma.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/gamma.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/gamma.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/gamma.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/gamma.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/gamma.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/glfwinfo.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/glfwinfo.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/glfwinfo.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/glfwinfo.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/glfwinfo.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/glfwinfo.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/icon.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/icon.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/icon.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/icon.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/icon.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/icon.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/iconify.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/iconify.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/iconify.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/iconify.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/iconify.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/iconify.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/inputlag.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/inputlag.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/inputlag.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/inputlag.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/inputlag.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/inputlag.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/joysticks.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/joysticks.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/joysticks.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/joysticks.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/joysticks.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/joysticks.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/monitors.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/monitors.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/monitors.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/monitors.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/monitors.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/monitors.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/msaa.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/msaa.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/msaa.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/msaa.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/msaa.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/msaa.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/opacity.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/opacity.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/opacity.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/opacity.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/opacity.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/opacity.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/reopen.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/reopen.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/reopen.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/reopen.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/reopen.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/reopen.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/tearing.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/tearing.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/tearing.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/tearing.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/tearing.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/tearing.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/threads.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/threads.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/threads.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/threads.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/threads.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/threads.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/timeout.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/timeout.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/timeout.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/timeout.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/timeout.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/timeout.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/title.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/title.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/title.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/title.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/title.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/title.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/windows.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/windows.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/windows.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/vendor/GLFW/tests/CMakeFiles/windows.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/shaders/basic.shader" beforeDir="false" afterPath="$PROJECT_DIR$/res/shaders/basic.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Renderer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Renderer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Renderer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Renderer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VertexArray.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/VertexArray.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VertexArray.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/VertexArray.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -157,17 +295,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+            <state relative-caret-position="257">
+              <caret line="27" column="62" selection-start-line="27" selection-start-column="62" selection-end-line="27" selection-end-column="62" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="141" column="26" selection-start-line="141" selection-start-column="26" selection-end-line="141" selection-end-column="26" />
+            <state relative-caret-position="138">
+              <caret line="157" column="54" selection-start-line="157" selection-start-column="54" selection-end-line="157" selection-end-column="54" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -176,96 +314,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/VertexArray.cpp">
+        <entry file="file://$PROJECT_DIR$/src/vendor/imgui/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
-              <folding>
-                <element signature="e#39#65#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/VertexArray.hpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5">
-              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-              <folding>
-                <element signature="e#102#129#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/VertexBufferLayout.hpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="48" column="97" selection-start-line="48" selection-start-column="97" selection-end-line="48" selection-end-column="97" />
-              <folding>
-                <element signature="e#116#133#0" expanded="true" />
-                <element signature="e#927#939#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/VertexBufferLayout.tpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" column="80" selection-start-line="9" selection-start-column="80" selection-end-line="9" selection-end-column="80" />
-              <folding>
-                <element signature="e#9#21#0" expanded="true" />
-                <element signature="e#73#85#0" expanded="true" />
-                <element signature="e#370#372#0" expanded="true" />
-                <element signature="e#589#591#0" expanded="true" />
-                <element signature="e#777#779#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/IndexBuffer.hpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/VertexBuffer.hpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Renderer.hpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-              <folding>
-                <element signature="e#92#112#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Renderer.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-              <folding>
-                <element signature="e#39#60#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="112">
+              <caret line="58" selection-start-line="58" selection-end-line="62" />
             </state>
           </provider>
         </entry>
@@ -280,6 +332,8 @@
       <find>vertexbufferelemen</find>
       <find>emplace</find>
       <find>vertexbufferElement</find>
+      <find>offset</find>
+      <find>clear</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -290,28 +344,36 @@
       <list>
         <option value="$PROJECT_DIR$/vendor/GLFW/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/main.cpp" />
-        <option value="$PROJECT_DIR$/res/shaders/basic.shader" />
         <option value="$PROJECT_DIR$/src/Renderer.h" />
-        <option value="$PROJECT_DIR$/src/Renderer.cpp" />
         <option value="$PROJECT_DIR$/src/VertexBuffer.h" />
         <option value="$PROJECT_DIR$/src/VertexBuffer.hpp" />
         <option value="$PROJECT_DIR$/src/IndexBuffer.hpp" />
-        <option value="$PROJECT_DIR$/src/Renderer.hpp" />
         <option value="$PROJECT_DIR$/src/VertexBuffer.cpp" />
+        <option value="$PROJECT_DIR$/src/VertexBufferLayout.tpp" />
+        <option value="$PROJECT_DIR$/src/common.hpp" />
         <option value="$PROJECT_DIR$/src/IndexBuffer.cpp" />
         <option value="$PROJECT_DIR$/src/VertexArray.hpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/src/VertexArray.cpp" />
         <option value="$PROJECT_DIR$/src/VertexBufferLayout.hpp" />
+        <option value="$PROJECT_DIR$/src/VertexArray.cpp" />
+        <option value="$PROJECT_DIR$/src/Renderer.hpp" />
+        <option value="$PROJECT_DIR$/src/Renderer.cpp" />
+        <option value="$PROJECT_DIR$/src/vendor/stb_image.hpp" />
+        <option value="$PROJECT_DIR$/src/vendor/stb_image/stb_image.cpp" />
+        <option value="$PROJECT_DIR$/src/Texture.hpp" />
+        <option value="$PROJECT_DIR$/src/Texture.cpp" />
+        <option value="$PROJECT_DIR$/res/shaders/basic.shader" />
+        <option value="$PROJECT_DIR$/src/Shader.hpp" />
+        <option value="$PROJECT_DIR$/src/Shader.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/src/vendor/imgui/imgui_impl_glfw_gl3.cpp" />
         <option value="$PROJECT_DIR$/src/main.cpp" />
-        <option value="$PROJECT_DIR$/src/VertexBufferLayout.tpp" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="419" />
-    <option name="y" value="39" />
-    <option name="width" value="649" />
+    <option name="x" value="399" />
+    <option name="y" value="27" />
+    <option name="width" value="639" />
     <option name="height" value="736" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -320,7 +382,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -344,23 +405,39 @@
               <item name="OpenGL" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="OpenGL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenGL" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenGL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenGL" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="imgui" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Builds/imgui-1.60/examples/opengl3_example/main.cpp" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/vendor/stb_image" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
@@ -578,12 +655,13 @@
       <updated>1545602097688</updated>
       <workItem from="1545602099027" duration="2870000" />
       <workItem from="1545607479307" duration="32236000" />
-      <workItem from="1546007414758" duration="14399000" />
+      <workItem from="1546007414758" duration="29909000" />
+      <workItem from="1546186794435" duration="8401000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49505000" />
+    <option name="totallyTimeSpent" value="73416000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -598,19 +676,19 @@
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25778133" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22665602" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32954547" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39739415" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.32899022" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.40553746" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.35667753" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32899022" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.32899022" />
@@ -620,6 +698,29 @@
       <window_info anchor="right" id="Database" order="3" weight="0.32960895" />
       <window_info anchor="right" x="0" y="0" width="274" height="543" id="Documentation" order="4" side_tool="true" weight="0.32960895" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26177174" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32954547" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39739415" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32899022" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.40553746" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32899022" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.32899022" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24980047" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32960895" />
+      <window_info anchor="right" x="0" y="0" width="274" height="543" id="Documentation" order="4" side_tool="true" weight="0.32960895" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -639,30 +740,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/shaders/basic.shader">
+    <entry file="file:///usr/include/GL/glew.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        <state relative-caret-position="-275424">
+          <caret line="641" column="23" selection-start-line="641" selection-start-column="17" selection-end-line="641" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/VertexBuffer.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
-          <folding>
-            <element signature="e#39#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VertexBufferLayout.cpp" />
     <entry file="file://$PROJECT_DIR$/src/IndexBuffer.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
-          <folding>
-            <element signature="e#39#66#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="80">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -673,88 +762,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/VertexBuffer.hpp">
+    <entry file="file:///usr/include/x86_64-linux-gnu/bits/stdint-intn.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        <state relative-caret-position="194">
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Renderer.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        <state relative-caret-position="217">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
           <folding>
             <element signature="e#92#112#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/vendor/stb_image/stb_image.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="7469" selection-start-line="7469" selection-end-line="7469" />
+          <folding>
+            <element signature="e#13792#13814#0" expanded="true" />
+            <element signature="e#19853#247139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vendor/stb_image/stb_image.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Renderer.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-          <folding>
-            <element signature="e#39#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/GL/glew.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-275424">
-          <caret line="641" column="23" selection-start-line="641" selection-start-column="17" selection-end-line="641" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/VertexBufferLayout.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/VertexArray.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding>
-            <element signature="e#102#129#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/VertexArray.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
-          <folding>
-            <element signature="e#39#65#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/VertexBufferLayout.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="48" column="97" selection-start-line="48" selection-start-column="97" selection-end-line="48" selection-end-column="97" />
-          <folding>
-            <element signature="e#116#133#0" expanded="true" />
-            <element signature="e#927#939#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="141" column="26" selection-start-line="141" selection-start-column="26" selection-end-line="141" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -762,12 +808,135 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="9" column="80" selection-start-line="9" selection-start-column="80" selection-end-line="9" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VertexBufferLayout.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common.hpp" />
+    <entry file="file://$PROJECT_DIR$/src/VertexBuffer.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
           <folding>
-            <element signature="e#9#21#0" expanded="true" />
-            <element signature="e#73#85#0" expanded="true" />
-            <element signature="e#370#372#0" expanded="true" />
-            <element signature="e#589#591#0" expanded="true" />
-            <element signature="e#777#779#0" expanded="true" />
+            <element signature="e#39#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Texture.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Texture.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Builds/imgui-1.60/examples/opengl3_example/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="57" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Builds/imgui-1.60/examples/opengl3_example/imgui_impl_glfw_gl3.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Builds/imgui-1.60/examples/opengl3_example/imgui_impl_glfw_gl3.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/shaders/basic.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Shader.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="31" column="66" selection-start-line="31" selection-start-column="66" selection-end-line="31" selection-end-column="66" />
+          <folding>
+            <element signature="e#92#109#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Shader.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="142" column="85" selection-start-line="142" selection-start-column="85" selection-end-line="142" selection-end-column="85" />
+          <folding>
+            <element signature="e#39#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VertexBuffer.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VertexArray.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VertexArray.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+          <folding>
+            <element signature="e#39#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="27" column="62" selection-start-line="27" selection-start-column="62" selection-end-line="27" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vendor/imgui/imgui_impl_glfw_gl3.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1456">
+          <caret line="42" column="6" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
+          <folding>
+            <element signature="e#3331#3503#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vendor/imgui/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="58" selection-start-line="58" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="157" column="54" selection-start-line="157" selection-start-column="54" selection-end-line="157" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -6,7 +6,7 @@
 #define OPENGL_VERTEXARRAY_HPP
 
 #include "VertexBuffer.hpp"
-#include "VertexBufferLayout.hpp"
+class VertexBufferLayout;
 
 class VertexArray {
 public:

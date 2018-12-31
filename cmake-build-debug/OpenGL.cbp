@@ -46,6 +46,7 @@
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/include"/>
+					<Add directory="/home/luis/CLionProjects/OpenGL/src/vendor"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -71,6 +72,7 @@
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/include"/>
+					<Add directory="/home/luis/CLionProjects/OpenGL/src/vendor"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -146,6 +148,7 @@
 				<Compiler>
 					<Add option="-D_GLFW_USE_CONFIG_H"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/include"/>
+					<Add directory="/home/luis/CLionProjects/OpenGL/src/vendor"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/src"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/cmake-build-debug/vendor/GLFW/src"/>
 					<Add directory="/usr/include/c++/7"/>
@@ -173,6 +176,7 @@
 				<Compiler>
 					<Add option="-D_GLFW_USE_CONFIG_H"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/include"/>
+					<Add directory="/home/luis/CLionProjects/OpenGL/src/vendor"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/src"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/cmake-build-debug/vendor/GLFW/src"/>
 					<Add directory="/usr/include/c++/7"/>
@@ -200,6 +204,7 @@
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/include"/>
+					<Add directory="/home/luis/CLionProjects/OpenGL/src/vendor"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/deps"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -226,6 +231,7 @@
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/include"/>
+					<Add directory="/home/luis/CLionProjects/OpenGL/src/vendor"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/deps"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -252,6 +258,7 @@
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/include"/>
+					<Add directory="/home/luis/CLionProjects/OpenGL/src/vendor"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/deps"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -278,6 +285,7 @@
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/include"/>
+					<Add directory="/home/luis/CLionProjects/OpenGL/src/vendor"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/deps"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -304,6 +312,7 @@
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/include"/>
+					<Add directory="/home/luis/CLionProjects/OpenGL/src/vendor"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/deps"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -330,6 +339,7 @@
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/include"/>
+					<Add directory="/home/luis/CLionProjects/OpenGL/src/vendor"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/deps"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -356,6 +366,7 @@
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/include"/>
+					<Add directory="/home/luis/CLionProjects/OpenGL/src/vendor"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/deps"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -382,6 +393,7 @@
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/include"/>
+					<Add directory="/home/luis/CLionProjects/OpenGL/src/vendor"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/deps"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -408,6 +420,7 @@
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/include"/>
+					<Add directory="/home/luis/CLionProjects/OpenGL/src/vendor"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/deps"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -434,6 +447,7 @@
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/include"/>
+					<Add directory="/home/luis/CLionProjects/OpenGL/src/vendor"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/deps"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -460,6 +474,7 @@
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/include"/>
+					<Add directory="/home/luis/CLionProjects/OpenGL/src/vendor"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/deps"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -486,6 +501,7 @@
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/include"/>
+					<Add directory="/home/luis/CLionProjects/OpenGL/src/vendor"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/deps"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -512,6 +528,7 @@
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/include"/>
+					<Add directory="/home/luis/CLionProjects/OpenGL/src/vendor"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/deps"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -538,6 +555,7 @@
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/include"/>
+					<Add directory="/home/luis/CLionProjects/OpenGL/src/vendor"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/deps"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -564,6 +582,7 @@
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/include"/>
+					<Add directory="/home/luis/CLionProjects/OpenGL/src/vendor"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/deps"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -590,6 +609,7 @@
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/include"/>
+					<Add directory="/home/luis/CLionProjects/OpenGL/src/vendor"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/deps"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -616,6 +636,7 @@
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/include"/>
+					<Add directory="/home/luis/CLionProjects/OpenGL/src/vendor"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/deps"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -642,6 +663,7 @@
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/include"/>
+					<Add directory="/home/luis/CLionProjects/OpenGL/src/vendor"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/deps"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -668,6 +690,7 @@
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/include"/>
+					<Add directory="/home/luis/CLionProjects/OpenGL/src/vendor"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/deps"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -694,6 +717,7 @@
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/include"/>
+					<Add directory="/home/luis/CLionProjects/OpenGL/src/vendor"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/deps"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -720,6 +744,7 @@
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/include"/>
+					<Add directory="/home/luis/CLionProjects/OpenGL/src/vendor"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/deps"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -746,6 +771,7 @@
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/include"/>
+					<Add directory="/home/luis/CLionProjects/OpenGL/src/vendor"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/deps"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -772,6 +798,7 @@
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/include"/>
+					<Add directory="/home/luis/CLionProjects/OpenGL/src/vendor"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/deps"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -798,6 +825,7 @@
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/include"/>
+					<Add directory="/home/luis/CLionProjects/OpenGL/src/vendor"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/deps"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -824,6 +852,7 @@
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/include"/>
+					<Add directory="/home/luis/CLionProjects/OpenGL/src/vendor"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/deps"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -850,6 +879,7 @@
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/include"/>
+					<Add directory="/home/luis/CLionProjects/OpenGL/src/vendor"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/deps"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -876,6 +906,7 @@
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/include"/>
+					<Add directory="/home/luis/CLionProjects/OpenGL/src/vendor"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/deps"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -902,6 +933,7 @@
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/include"/>
+					<Add directory="/home/luis/CLionProjects/OpenGL/src/vendor"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/deps"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -928,6 +960,7 @@
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/include"/>
+					<Add directory="/home/luis/CLionProjects/OpenGL/src/vendor"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/deps"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -954,6 +987,7 @@
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/include"/>
+					<Add directory="/home/luis/CLionProjects/OpenGL/src/vendor"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/deps"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -980,6 +1014,7 @@
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/include"/>
+					<Add directory="/home/luis/CLionProjects/OpenGL/src/vendor"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/deps"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -1006,6 +1041,7 @@
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/include"/>
+					<Add directory="/home/luis/CLionProjects/OpenGL/src/vendor"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/deps"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -1032,6 +1068,7 @@
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/include"/>
+					<Add directory="/home/luis/CLionProjects/OpenGL/src/vendor"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/deps"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -1058,6 +1095,7 @@
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/include"/>
+					<Add directory="/home/luis/CLionProjects/OpenGL/src/vendor"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/deps"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -1084,6 +1122,7 @@
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/include"/>
+					<Add directory="/home/luis/CLionProjects/OpenGL/src/vendor"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/deps"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -1110,6 +1149,7 @@
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/include"/>
+					<Add directory="/home/luis/CLionProjects/OpenGL/src/vendor"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/deps"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -1136,6 +1176,7 @@
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/include"/>
+					<Add directory="/home/luis/CLionProjects/OpenGL/src/vendor"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/deps"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -1162,6 +1203,7 @@
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/include"/>
+					<Add directory="/home/luis/CLionProjects/OpenGL/src/vendor"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/deps"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -1188,6 +1230,7 @@
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/include"/>
+					<Add directory="/home/luis/CLionProjects/OpenGL/src/vendor"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/deps"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -1214,6 +1257,7 @@
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/include"/>
+					<Add directory="/home/luis/CLionProjects/OpenGL/src/vendor"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/deps"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -1240,6 +1284,7 @@
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/include"/>
+					<Add directory="/home/luis/CLionProjects/OpenGL/src/vendor"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/deps"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -1266,6 +1311,7 @@
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/include"/>
+					<Add directory="/home/luis/CLionProjects/OpenGL/src/vendor"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/deps"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -1292,6 +1338,7 @@
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/include"/>
+					<Add directory="/home/luis/CLionProjects/OpenGL/src/vendor"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/deps"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -1318,6 +1365,7 @@
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/include"/>
+					<Add directory="/home/luis/CLionProjects/OpenGL/src/vendor"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/deps"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -1344,6 +1392,7 @@
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/include"/>
+					<Add directory="/home/luis/CLionProjects/OpenGL/src/vendor"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/deps"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -1370,6 +1419,7 @@
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/include"/>
+					<Add directory="/home/luis/CLionProjects/OpenGL/src/vendor"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/deps"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -1396,6 +1446,7 @@
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/include"/>
+					<Add directory="/home/luis/CLionProjects/OpenGL/src/vendor"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/deps"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -1422,6 +1473,7 @@
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/include"/>
+					<Add directory="/home/luis/CLionProjects/OpenGL/src/vendor"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/deps"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -1448,6 +1500,7 @@
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/include"/>
+					<Add directory="/home/luis/CLionProjects/OpenGL/src/vendor"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/deps"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -1474,6 +1527,7 @@
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/include"/>
+					<Add directory="/home/luis/CLionProjects/OpenGL/src/vendor"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/deps"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -1500,6 +1554,7 @@
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/include"/>
+					<Add directory="/home/luis/CLionProjects/OpenGL/src/vendor"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/deps"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -1526,6 +1581,7 @@
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/include"/>
+					<Add directory="/home/luis/CLionProjects/OpenGL/src/vendor"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/deps"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -1552,6 +1608,7 @@
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/include"/>
+					<Add directory="/home/luis/CLionProjects/OpenGL/src/vendor"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/deps"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -1578,6 +1635,7 @@
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/include"/>
+					<Add directory="/home/luis/CLionProjects/OpenGL/src/vendor"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/deps"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -1604,6 +1662,7 @@
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/include"/>
+					<Add directory="/home/luis/CLionProjects/OpenGL/src/vendor"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/deps"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -1630,6 +1689,7 @@
 				<Compiler>
 					<Add option="-DGLFW_DLL"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/include"/>
+					<Add directory="/home/luis/CLionProjects/OpenGL/src/vendor"/>
 					<Add directory="/home/luis/CLionProjects/OpenGL/vendor/GLFW/deps"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
@@ -1663,6 +1723,18 @@
 		<Unit filename="/home/luis/CLionProjects/OpenGL/src/Renderer.hpp">
 			<Option target="OpenGL"/>
 		</Unit>
+		<Unit filename="/home/luis/CLionProjects/OpenGL/src/Shader.cpp">
+			<Option target="OpenGL"/>
+		</Unit>
+		<Unit filename="/home/luis/CLionProjects/OpenGL/src/Shader.hpp">
+			<Option target="OpenGL"/>
+		</Unit>
+		<Unit filename="/home/luis/CLionProjects/OpenGL/src/Texture.cpp">
+			<Option target="OpenGL"/>
+		</Unit>
+		<Unit filename="/home/luis/CLionProjects/OpenGL/src/Texture.hpp">
+			<Option target="OpenGL"/>
+		</Unit>
 		<Unit filename="/home/luis/CLionProjects/OpenGL/src/VertexArray.cpp">
 			<Option target="OpenGL"/>
 		</Unit>
@@ -1675,10 +1747,31 @@
 		<Unit filename="/home/luis/CLionProjects/OpenGL/src/VertexBuffer.hpp">
 			<Option target="OpenGL"/>
 		</Unit>
-		<Unit filename="/home/luis/CLionProjects/OpenGL/src/VertexBufferLayout.hpp">
+		<Unit filename="/home/luis/CLionProjects/OpenGL/src/main.cpp">
 			<Option target="OpenGL"/>
 		</Unit>
-		<Unit filename="/home/luis/CLionProjects/OpenGL/src/main.cpp">
+		<Unit filename="/home/luis/CLionProjects/OpenGL/src/vendor/imgui/imgui.cpp">
+			<Option target="OpenGL"/>
+		</Unit>
+		<Unit filename="/home/luis/CLionProjects/OpenGL/src/vendor/imgui/imgui.h">
+			<Option target="OpenGL"/>
+		</Unit>
+		<Unit filename="/home/luis/CLionProjects/OpenGL/src/vendor/imgui/imgui_demo.cpp">
+			<Option target="OpenGL"/>
+		</Unit>
+		<Unit filename="/home/luis/CLionProjects/OpenGL/src/vendor/imgui/imgui_draw.cpp">
+			<Option target="OpenGL"/>
+		</Unit>
+		<Unit filename="/home/luis/CLionProjects/OpenGL/src/vendor/imgui/imgui_impl_glfw_gl3.cpp">
+			<Option target="OpenGL"/>
+		</Unit>
+		<Unit filename="/home/luis/CLionProjects/OpenGL/src/vendor/imgui/imgui_impl_glfw_gl3.h">
+			<Option target="OpenGL"/>
+		</Unit>
+		<Unit filename="/home/luis/CLionProjects/OpenGL/src/vendor/stb_image/stb_image.cpp">
+			<Option target="OpenGL"/>
+		</Unit>
+		<Unit filename="/home/luis/CLionProjects/OpenGL/src/vendor/stb_image/stb_image.hpp">
 			<Option target="OpenGL"/>
 		</Unit>
 		<Unit filename="/home/luis/CLionProjects/OpenGL/vendor/GLFW/deps/getopt.c">

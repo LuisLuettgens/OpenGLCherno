@@ -6,9 +6,16 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/luis/CLionProjects/OpenGL/src/IndexBuffer.cpp" "/home/luis/CLionProjects/OpenGL/build/CMakeFiles/OpenGL.dir/src/IndexBuffer.cpp.o"
   "/home/luis/CLionProjects/OpenGL/src/Renderer.cpp" "/home/luis/CLionProjects/OpenGL/build/CMakeFiles/OpenGL.dir/src/Renderer.cpp.o"
+  "/home/luis/CLionProjects/OpenGL/src/Shader.cpp" "/home/luis/CLionProjects/OpenGL/build/CMakeFiles/OpenGL.dir/src/Shader.cpp.o"
+  "/home/luis/CLionProjects/OpenGL/src/Texture.cpp" "/home/luis/CLionProjects/OpenGL/build/CMakeFiles/OpenGL.dir/src/Texture.cpp.o"
   "/home/luis/CLionProjects/OpenGL/src/VertexArray.cpp" "/home/luis/CLionProjects/OpenGL/build/CMakeFiles/OpenGL.dir/src/VertexArray.cpp.o"
   "/home/luis/CLionProjects/OpenGL/src/VertexBuffer.cpp" "/home/luis/CLionProjects/OpenGL/build/CMakeFiles/OpenGL.dir/src/VertexBuffer.cpp.o"
   "/home/luis/CLionProjects/OpenGL/src/main.cpp" "/home/luis/CLionProjects/OpenGL/build/CMakeFiles/OpenGL.dir/src/main.cpp.o"
+  "/home/luis/CLionProjects/OpenGL/src/vendor/imgui/imgui.cpp" "/home/luis/CLionProjects/OpenGL/build/CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui.cpp.o"
+  "/home/luis/CLionProjects/OpenGL/src/vendor/imgui/imgui_demo.cpp" "/home/luis/CLionProjects/OpenGL/build/CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_demo.cpp.o"
+  "/home/luis/CLionProjects/OpenGL/src/vendor/imgui/imgui_draw.cpp" "/home/luis/CLionProjects/OpenGL/build/CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_draw.cpp.o"
+  "/home/luis/CLionProjects/OpenGL/src/vendor/imgui/imgui_impl_glfw_gl3.cpp" "/home/luis/CLionProjects/OpenGL/build/CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o"
+  "/home/luis/CLionProjects/OpenGL/src/vendor/stb_image/stb_image.cpp" "/home/luis/CLionProjects/OpenGL/build/CMakeFiles/OpenGL.dir/src/vendor/stb_image/stb_image.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -20,6 +27,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../vendor/GLFW/include"
+  "../src/vendor"
   )
 
 # Targets to which this target links.

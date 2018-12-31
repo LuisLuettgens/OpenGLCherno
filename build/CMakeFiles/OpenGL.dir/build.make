@@ -177,13 +177,188 @@ CMakeFiles/OpenGL.dir/src/VertexArray.cpp.o.provides: CMakeFiles/OpenGL.dir/src/
 CMakeFiles/OpenGL.dir/src/VertexArray.cpp.o.provides.build: CMakeFiles/OpenGL.dir/src/VertexArray.cpp.o
 
 
+CMakeFiles/OpenGL.dir/src/Shader.cpp.o: CMakeFiles/OpenGL.dir/flags.make
+CMakeFiles/OpenGL.dir/src/Shader.cpp.o: ../src/Shader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/CLionProjects/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/OpenGL.dir/src/Shader.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGL.dir/src/Shader.cpp.o -c /home/luis/CLionProjects/OpenGL/src/Shader.cpp
+
+CMakeFiles/OpenGL.dir/src/Shader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGL.dir/src/Shader.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/CLionProjects/OpenGL/src/Shader.cpp > CMakeFiles/OpenGL.dir/src/Shader.cpp.i
+
+CMakeFiles/OpenGL.dir/src/Shader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGL.dir/src/Shader.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/CLionProjects/OpenGL/src/Shader.cpp -o CMakeFiles/OpenGL.dir/src/Shader.cpp.s
+
+CMakeFiles/OpenGL.dir/src/Shader.cpp.o.requires:
+
+.PHONY : CMakeFiles/OpenGL.dir/src/Shader.cpp.o.requires
+
+CMakeFiles/OpenGL.dir/src/Shader.cpp.o.provides: CMakeFiles/OpenGL.dir/src/Shader.cpp.o.requires
+	$(MAKE) -f CMakeFiles/OpenGL.dir/build.make CMakeFiles/OpenGL.dir/src/Shader.cpp.o.provides.build
+.PHONY : CMakeFiles/OpenGL.dir/src/Shader.cpp.o.provides
+
+CMakeFiles/OpenGL.dir/src/Shader.cpp.o.provides.build: CMakeFiles/OpenGL.dir/src/Shader.cpp.o
+
+
+CMakeFiles/OpenGL.dir/src/vendor/stb_image/stb_image.cpp.o: CMakeFiles/OpenGL.dir/flags.make
+CMakeFiles/OpenGL.dir/src/vendor/stb_image/stb_image.cpp.o: ../src/vendor/stb_image/stb_image.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/CLionProjects/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/OpenGL.dir/src/vendor/stb_image/stb_image.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGL.dir/src/vendor/stb_image/stb_image.cpp.o -c /home/luis/CLionProjects/OpenGL/src/vendor/stb_image/stb_image.cpp
+
+CMakeFiles/OpenGL.dir/src/vendor/stb_image/stb_image.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGL.dir/src/vendor/stb_image/stb_image.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/CLionProjects/OpenGL/src/vendor/stb_image/stb_image.cpp > CMakeFiles/OpenGL.dir/src/vendor/stb_image/stb_image.cpp.i
+
+CMakeFiles/OpenGL.dir/src/vendor/stb_image/stb_image.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGL.dir/src/vendor/stb_image/stb_image.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/CLionProjects/OpenGL/src/vendor/stb_image/stb_image.cpp -o CMakeFiles/OpenGL.dir/src/vendor/stb_image/stb_image.cpp.s
+
+CMakeFiles/OpenGL.dir/src/vendor/stb_image/stb_image.cpp.o.requires:
+
+.PHONY : CMakeFiles/OpenGL.dir/src/vendor/stb_image/stb_image.cpp.o.requires
+
+CMakeFiles/OpenGL.dir/src/vendor/stb_image/stb_image.cpp.o.provides: CMakeFiles/OpenGL.dir/src/vendor/stb_image/stb_image.cpp.o.requires
+	$(MAKE) -f CMakeFiles/OpenGL.dir/build.make CMakeFiles/OpenGL.dir/src/vendor/stb_image/stb_image.cpp.o.provides.build
+.PHONY : CMakeFiles/OpenGL.dir/src/vendor/stb_image/stb_image.cpp.o.provides
+
+CMakeFiles/OpenGL.dir/src/vendor/stb_image/stb_image.cpp.o.provides.build: CMakeFiles/OpenGL.dir/src/vendor/stb_image/stb_image.cpp.o
+
+
+CMakeFiles/OpenGL.dir/src/Texture.cpp.o: CMakeFiles/OpenGL.dir/flags.make
+CMakeFiles/OpenGL.dir/src/Texture.cpp.o: ../src/Texture.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/CLionProjects/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/OpenGL.dir/src/Texture.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGL.dir/src/Texture.cpp.o -c /home/luis/CLionProjects/OpenGL/src/Texture.cpp
+
+CMakeFiles/OpenGL.dir/src/Texture.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGL.dir/src/Texture.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/CLionProjects/OpenGL/src/Texture.cpp > CMakeFiles/OpenGL.dir/src/Texture.cpp.i
+
+CMakeFiles/OpenGL.dir/src/Texture.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGL.dir/src/Texture.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/CLionProjects/OpenGL/src/Texture.cpp -o CMakeFiles/OpenGL.dir/src/Texture.cpp.s
+
+CMakeFiles/OpenGL.dir/src/Texture.cpp.o.requires:
+
+.PHONY : CMakeFiles/OpenGL.dir/src/Texture.cpp.o.requires
+
+CMakeFiles/OpenGL.dir/src/Texture.cpp.o.provides: CMakeFiles/OpenGL.dir/src/Texture.cpp.o.requires
+	$(MAKE) -f CMakeFiles/OpenGL.dir/build.make CMakeFiles/OpenGL.dir/src/Texture.cpp.o.provides.build
+.PHONY : CMakeFiles/OpenGL.dir/src/Texture.cpp.o.provides
+
+CMakeFiles/OpenGL.dir/src/Texture.cpp.o.provides.build: CMakeFiles/OpenGL.dir/src/Texture.cpp.o
+
+
+CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui.cpp.o: CMakeFiles/OpenGL.dir/flags.make
+CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui.cpp.o: ../src/vendor/imgui/imgui.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/CLionProjects/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui.cpp.o -c /home/luis/CLionProjects/OpenGL/src/vendor/imgui/imgui.cpp
+
+CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/CLionProjects/OpenGL/src/vendor/imgui/imgui.cpp > CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui.cpp.i
+
+CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/CLionProjects/OpenGL/src/vendor/imgui/imgui.cpp -o CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui.cpp.s
+
+CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui.cpp.o.requires:
+
+.PHONY : CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui.cpp.o.requires
+
+CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui.cpp.o.provides: CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui.cpp.o.requires
+	$(MAKE) -f CMakeFiles/OpenGL.dir/build.make CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui.cpp.o.provides.build
+.PHONY : CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui.cpp.o.provides
+
+CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui.cpp.o.provides.build: CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui.cpp.o
+
+
+CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_draw.cpp.o: CMakeFiles/OpenGL.dir/flags.make
+CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_draw.cpp.o: ../src/vendor/imgui/imgui_draw.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/CLionProjects/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_draw.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_draw.cpp.o -c /home/luis/CLionProjects/OpenGL/src/vendor/imgui/imgui_draw.cpp
+
+CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_draw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_draw.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/CLionProjects/OpenGL/src/vendor/imgui/imgui_draw.cpp > CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_draw.cpp.i
+
+CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_draw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_draw.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/CLionProjects/OpenGL/src/vendor/imgui/imgui_draw.cpp -o CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_draw.cpp.s
+
+CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_draw.cpp.o.requires:
+
+.PHONY : CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_draw.cpp.o.requires
+
+CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_draw.cpp.o.provides: CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_draw.cpp.o.requires
+	$(MAKE) -f CMakeFiles/OpenGL.dir/build.make CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_draw.cpp.o.provides.build
+.PHONY : CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_draw.cpp.o.provides
+
+CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_draw.cpp.o.provides.build: CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_draw.cpp.o
+
+
+CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_demo.cpp.o: CMakeFiles/OpenGL.dir/flags.make
+CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_demo.cpp.o: ../src/vendor/imgui/imgui_demo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/CLionProjects/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_demo.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_demo.cpp.o -c /home/luis/CLionProjects/OpenGL/src/vendor/imgui/imgui_demo.cpp
+
+CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_demo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_demo.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/CLionProjects/OpenGL/src/vendor/imgui/imgui_demo.cpp > CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_demo.cpp.i
+
+CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_demo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_demo.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/CLionProjects/OpenGL/src/vendor/imgui/imgui_demo.cpp -o CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_demo.cpp.s
+
+CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_demo.cpp.o.requires:
+
+.PHONY : CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_demo.cpp.o.requires
+
+CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_demo.cpp.o.provides: CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_demo.cpp.o.requires
+	$(MAKE) -f CMakeFiles/OpenGL.dir/build.make CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_demo.cpp.o.provides.build
+.PHONY : CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_demo.cpp.o.provides
+
+CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_demo.cpp.o.provides.build: CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_demo.cpp.o
+
+
+CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o: CMakeFiles/OpenGL.dir/flags.make
+CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o: ../src/vendor/imgui/imgui_impl_glfw_gl3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/CLionProjects/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o -c /home/luis/CLionProjects/OpenGL/src/vendor/imgui/imgui_impl_glfw_gl3.cpp
+
+CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/CLionProjects/OpenGL/src/vendor/imgui/imgui_impl_glfw_gl3.cpp > CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.i
+
+CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/CLionProjects/OpenGL/src/vendor/imgui/imgui_impl_glfw_gl3.cpp -o CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.s
+
+CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o.requires:
+
+.PHONY : CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o.requires
+
+CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o.provides: CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o.requires
+	$(MAKE) -f CMakeFiles/OpenGL.dir/build.make CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o.provides.build
+.PHONY : CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o.provides
+
+CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o.provides.build: CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o
+
+
 # Object files for target OpenGL
 OpenGL_OBJECTS = \
 "CMakeFiles/OpenGL.dir/src/main.cpp.o" \
 "CMakeFiles/OpenGL.dir/src/Renderer.cpp.o" \
 "CMakeFiles/OpenGL.dir/src/VertexBuffer.cpp.o" \
 "CMakeFiles/OpenGL.dir/src/IndexBuffer.cpp.o" \
-"CMakeFiles/OpenGL.dir/src/VertexArray.cpp.o"
+"CMakeFiles/OpenGL.dir/src/VertexArray.cpp.o" \
+"CMakeFiles/OpenGL.dir/src/Shader.cpp.o" \
+"CMakeFiles/OpenGL.dir/src/vendor/stb_image/stb_image.cpp.o" \
+"CMakeFiles/OpenGL.dir/src/Texture.cpp.o" \
+"CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui.cpp.o" \
+"CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_draw.cpp.o" \
+"CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_demo.cpp.o" \
+"CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o"
 
 # External object files for target OpenGL
 OpenGL_EXTERNAL_OBJECTS =
@@ -193,10 +368,17 @@ OpenGL_EXTERNAL_OBJECTS =
 ../bin/OpenGL: CMakeFiles/OpenGL.dir/src/VertexBuffer.cpp.o
 ../bin/OpenGL: CMakeFiles/OpenGL.dir/src/IndexBuffer.cpp.o
 ../bin/OpenGL: CMakeFiles/OpenGL.dir/src/VertexArray.cpp.o
+../bin/OpenGL: CMakeFiles/OpenGL.dir/src/Shader.cpp.o
+../bin/OpenGL: CMakeFiles/OpenGL.dir/src/vendor/stb_image/stb_image.cpp.o
+../bin/OpenGL: CMakeFiles/OpenGL.dir/src/Texture.cpp.o
+../bin/OpenGL: CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui.cpp.o
+../bin/OpenGL: CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_draw.cpp.o
+../bin/OpenGL: CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_demo.cpp.o
+../bin/OpenGL: CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o
 ../bin/OpenGL: CMakeFiles/OpenGL.dir/build.make
 ../bin/OpenGL: vendor/GLFW/src/libglfw.so.3.3
 ../bin/OpenGL: CMakeFiles/OpenGL.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/luis/CLionProjects/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ../bin/OpenGL"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/luis/CLionProjects/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable ../bin/OpenGL"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OpenGL.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -209,6 +391,13 @@ CMakeFiles/OpenGL.dir/requires: CMakeFiles/OpenGL.dir/src/Renderer.cpp.o.require
 CMakeFiles/OpenGL.dir/requires: CMakeFiles/OpenGL.dir/src/VertexBuffer.cpp.o.requires
 CMakeFiles/OpenGL.dir/requires: CMakeFiles/OpenGL.dir/src/IndexBuffer.cpp.o.requires
 CMakeFiles/OpenGL.dir/requires: CMakeFiles/OpenGL.dir/src/VertexArray.cpp.o.requires
+CMakeFiles/OpenGL.dir/requires: CMakeFiles/OpenGL.dir/src/Shader.cpp.o.requires
+CMakeFiles/OpenGL.dir/requires: CMakeFiles/OpenGL.dir/src/vendor/stb_image/stb_image.cpp.o.requires
+CMakeFiles/OpenGL.dir/requires: CMakeFiles/OpenGL.dir/src/Texture.cpp.o.requires
+CMakeFiles/OpenGL.dir/requires: CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui.cpp.o.requires
+CMakeFiles/OpenGL.dir/requires: CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_draw.cpp.o.requires
+CMakeFiles/OpenGL.dir/requires: CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_demo.cpp.o.requires
+CMakeFiles/OpenGL.dir/requires: CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o.requires
 
 .PHONY : CMakeFiles/OpenGL.dir/requires
 
