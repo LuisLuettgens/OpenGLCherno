@@ -6,5 +6,5 @@ C_FLAGS = -g
 
 C_DEFINES = -DGLFW_DLL
 
-C_INCLUDES = -I/home/luis/CLionProjects/OpenGL/vendor/GLFW/include -I/home/luis/CLionProjects/OpenGL/src/vendor -I/home/luis/CLionProjects/OpenGL/vendor/GLFW/deps 
+C_INCLUDES = -I/home/luis/CLionProjects/OpenGL/vendor/GLFW/include -I/home/luis/CLionProjects/OpenGL/src/vendor -I/home/luis/CLionProjects/OpenGL/src -I/home/luis/CLionProjects/OpenGL/vendor/GLFW/deps 
 

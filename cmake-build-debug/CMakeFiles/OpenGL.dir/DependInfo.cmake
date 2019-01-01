@@ -7,6 +7,9 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/luis/CLionProjects/OpenGL/src/IndexBuffer.cpp" "/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles/OpenGL.dir/src/IndexBuffer.cpp.o"
   "/home/luis/CLionProjects/OpenGL/src/Renderer.cpp" "/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles/OpenGL.dir/src/Renderer.cpp.o"
   "/home/luis/CLionProjects/OpenGL/src/Shader.cpp" "/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles/OpenGL.dir/src/Shader.cpp.o"
+  "/home/luis/CLionProjects/OpenGL/src/Tests/Test.cpp" "/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles/OpenGL.dir/src/Tests/Test.cpp.o"
+  "/home/luis/CLionProjects/OpenGL/src/Tests/TestClearColor.cpp" "/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles/OpenGL.dir/src/Tests/TestClearColor.cpp.o"
+  "/home/luis/CLionProjects/OpenGL/src/Tests/TestTexture2D.cpp" "/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles/OpenGL.dir/src/Tests/TestTexture2D.cpp.o"
   "/home/luis/CLionProjects/OpenGL/src/Texture.cpp" "/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles/OpenGL.dir/src/Texture.cpp.o"
   "/home/luis/CLionProjects/OpenGL/src/VertexArray.cpp" "/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles/OpenGL.dir/src/VertexArray.cpp.o"
   "/home/luis/CLionProjects/OpenGL/src/VertexBuffer.cpp" "/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles/OpenGL.dir/src/VertexBuffer.cpp.o"
@@ -28,6 +31,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../vendor/GLFW/include"
   "../src/vendor"
+  "../src"
   )
 
 # Targets to which this target links.

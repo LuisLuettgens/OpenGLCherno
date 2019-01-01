@@ -161,9 +161,22 @@ CMakeFiles/OpenGL.dir/src/Texture.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGL.dir/src/Texture.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/CLionProjects/OpenGL/src/Texture.cpp -o CMakeFiles/OpenGL.dir/src/Texture.cpp.s
 
+CMakeFiles/OpenGL.dir/src/Tests/Test.cpp.o: CMakeFiles/OpenGL.dir/flags.make
+CMakeFiles/OpenGL.dir/src/Tests/Test.cpp.o: ../src/Tests/Test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/OpenGL.dir/src/Tests/Test.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGL.dir/src/Tests/Test.cpp.o -c /home/luis/CLionProjects/OpenGL/src/Tests/Test.cpp
+
+CMakeFiles/OpenGL.dir/src/Tests/Test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGL.dir/src/Tests/Test.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/CLionProjects/OpenGL/src/Tests/Test.cpp > CMakeFiles/OpenGL.dir/src/Tests/Test.cpp.i
+
+CMakeFiles/OpenGL.dir/src/Tests/Test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGL.dir/src/Tests/Test.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/CLionProjects/OpenGL/src/Tests/Test.cpp -o CMakeFiles/OpenGL.dir/src/Tests/Test.cpp.s
+
 CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui.cpp.o: CMakeFiles/OpenGL.dir/flags.make
 CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui.cpp.o: ../src/vendor/imgui/imgui.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui.cpp.o -c /home/luis/CLionProjects/OpenGL/src/vendor/imgui/imgui.cpp
 
 CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui.cpp.i: cmake_force
@@ -176,7 +189,7 @@ CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui.cpp.s: cmake_force
 
 CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_draw.cpp.o: CMakeFiles/OpenGL.dir/flags.make
 CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_draw.cpp.o: ../src/vendor/imgui/imgui_draw.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_draw.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_draw.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_draw.cpp.o -c /home/luis/CLionProjects/OpenGL/src/vendor/imgui/imgui_draw.cpp
 
 CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_draw.cpp.i: cmake_force
@@ -189,7 +202,7 @@ CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_draw.cpp.s: cmake_force
 
 CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_demo.cpp.o: CMakeFiles/OpenGL.dir/flags.make
 CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_demo.cpp.o: ../src/vendor/imgui/imgui_demo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_demo.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_demo.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_demo.cpp.o -c /home/luis/CLionProjects/OpenGL/src/vendor/imgui/imgui_demo.cpp
 
 CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_demo.cpp.i: cmake_force
@@ -202,7 +215,7 @@ CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_demo.cpp.s: cmake_force
 
 CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o: CMakeFiles/OpenGL.dir/flags.make
 CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o: ../src/vendor/imgui/imgui_impl_glfw_gl3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o -c /home/luis/CLionProjects/OpenGL/src/vendor/imgui/imgui_impl_glfw_gl3.cpp
 
 CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.i: cmake_force
@@ -212,6 +225,32 @@ CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.i: cmake_force
 CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/CLionProjects/OpenGL/src/vendor/imgui/imgui_impl_glfw_gl3.cpp -o CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.s
+
+CMakeFiles/OpenGL.dir/src/Tests/TestClearColor.cpp.o: CMakeFiles/OpenGL.dir/flags.make
+CMakeFiles/OpenGL.dir/src/Tests/TestClearColor.cpp.o: ../src/Tests/TestClearColor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/OpenGL.dir/src/Tests/TestClearColor.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGL.dir/src/Tests/TestClearColor.cpp.o -c /home/luis/CLionProjects/OpenGL/src/Tests/TestClearColor.cpp
+
+CMakeFiles/OpenGL.dir/src/Tests/TestClearColor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGL.dir/src/Tests/TestClearColor.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/CLionProjects/OpenGL/src/Tests/TestClearColor.cpp > CMakeFiles/OpenGL.dir/src/Tests/TestClearColor.cpp.i
+
+CMakeFiles/OpenGL.dir/src/Tests/TestClearColor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGL.dir/src/Tests/TestClearColor.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/CLionProjects/OpenGL/src/Tests/TestClearColor.cpp -o CMakeFiles/OpenGL.dir/src/Tests/TestClearColor.cpp.s
+
+CMakeFiles/OpenGL.dir/src/Tests/TestTexture2D.cpp.o: CMakeFiles/OpenGL.dir/flags.make
+CMakeFiles/OpenGL.dir/src/Tests/TestTexture2D.cpp.o: ../src/Tests/TestTexture2D.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/OpenGL.dir/src/Tests/TestTexture2D.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGL.dir/src/Tests/TestTexture2D.cpp.o -c /home/luis/CLionProjects/OpenGL/src/Tests/TestTexture2D.cpp
+
+CMakeFiles/OpenGL.dir/src/Tests/TestTexture2D.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGL.dir/src/Tests/TestTexture2D.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/CLionProjects/OpenGL/src/Tests/TestTexture2D.cpp > CMakeFiles/OpenGL.dir/src/Tests/TestTexture2D.cpp.i
+
+CMakeFiles/OpenGL.dir/src/Tests/TestTexture2D.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGL.dir/src/Tests/TestTexture2D.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/CLionProjects/OpenGL/src/Tests/TestTexture2D.cpp -o CMakeFiles/OpenGL.dir/src/Tests/TestTexture2D.cpp.s
 
 # Object files for target OpenGL
 OpenGL_OBJECTS = \
@@ -223,10 +262,13 @@ OpenGL_OBJECTS = \
 "CMakeFiles/OpenGL.dir/src/Shader.cpp.o" \
 "CMakeFiles/OpenGL.dir/src/vendor/stb_image/stb_image.cpp.o" \
 "CMakeFiles/OpenGL.dir/src/Texture.cpp.o" \
+"CMakeFiles/OpenGL.dir/src/Tests/Test.cpp.o" \
 "CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui.cpp.o" \
 "CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_draw.cpp.o" \
 "CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_demo.cpp.o" \
-"CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o"
+"CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o" \
+"CMakeFiles/OpenGL.dir/src/Tests/TestClearColor.cpp.o" \
+"CMakeFiles/OpenGL.dir/src/Tests/TestTexture2D.cpp.o"
 
 # External object files for target OpenGL
 OpenGL_EXTERNAL_OBJECTS =
@@ -239,14 +281,17 @@ OpenGL_EXTERNAL_OBJECTS =
 ../bin/OpenGL: CMakeFiles/OpenGL.dir/src/Shader.cpp.o
 ../bin/OpenGL: CMakeFiles/OpenGL.dir/src/vendor/stb_image/stb_image.cpp.o
 ../bin/OpenGL: CMakeFiles/OpenGL.dir/src/Texture.cpp.o
+../bin/OpenGL: CMakeFiles/OpenGL.dir/src/Tests/Test.cpp.o
 ../bin/OpenGL: CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui.cpp.o
 ../bin/OpenGL: CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_draw.cpp.o
 ../bin/OpenGL: CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_demo.cpp.o
 ../bin/OpenGL: CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o
+../bin/OpenGL: CMakeFiles/OpenGL.dir/src/Tests/TestClearColor.cpp.o
+../bin/OpenGL: CMakeFiles/OpenGL.dir/src/Tests/TestTexture2D.cpp.o
 ../bin/OpenGL: CMakeFiles/OpenGL.dir/build.make
 ../bin/OpenGL: vendor/GLFW/src/libglfw.so.3.3
 ../bin/OpenGL: CMakeFiles/OpenGL.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable ../bin/OpenGL"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/luis/CLionProjects/OpenGL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable ../bin/OpenGL"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OpenGL.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

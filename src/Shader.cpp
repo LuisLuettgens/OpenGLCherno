@@ -8,6 +8,7 @@
 
 #include "Renderer.hpp"
 #include "Shader.hpp"
+#include "glm/glm/gtc/type_ptr.hpp"
 
 enum class ShaderType {
     NONE = -1, VERTEX = 0, FRAGMENT = 1
@@ -82,8 +83,8 @@ unsigned int Shader::CompileShader(unsigned int type, const std::string& source)
 unsigned int Shader::CreateShader(const std::string& vertexShader, const std::string& fragmentShader)
 {
     unsigned int program = glCreateProgram();
-    unsigned int vs = CompileShader(GL_VERTEX_SHADER, vertexShader);
-    unsigned int fs = CompileShader(GL_FRAGMENT_SHADER, fragmentShader);
+    unsigned int vs      = CompileShader(GL_VERTEX_SHADER, vertexShader);
+    unsigned int fs      = CompileShader(GL_FRAGMENT_SHADER, fragmentShader);
 
     glAttachShader(program, vs);
     glAttachShader(program, fs);
@@ -140,5 +141,5 @@ int Shader::GetUniformLocation(const std::string &name)
 
 void Shader::SetUniformMat4f(const std::string &name, const glm::mat4& matrix)
 {
-    GLCall(glUniformMatrix4fv(GetUniformLocation(name), 1, GL_FALSE, &matrix[0][0]));
+    GLCall(glUniformMatrix4fv(GetUniformLocation(name), 1, GL_FALSE, glm::value_ptr(matrix)));
 }

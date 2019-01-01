@@ -640,6 +640,87 @@ src/Shader.cpp.s:
 	$(MAKE) -f CMakeFiles/OpenGL.dir/build.make CMakeFiles/OpenGL.dir/src/Shader.cpp.s
 .PHONY : src/Shader.cpp.s
 
+src/Tests/Test.o: src/Tests/Test.cpp.o
+
+.PHONY : src/Tests/Test.o
+
+# target to build an object file
+src/Tests/Test.cpp.o:
+	$(MAKE) -f CMakeFiles/OpenGL.dir/build.make CMakeFiles/OpenGL.dir/src/Tests/Test.cpp.o
+.PHONY : src/Tests/Test.cpp.o
+
+src/Tests/Test.i: src/Tests/Test.cpp.i
+
+.PHONY : src/Tests/Test.i
+
+# target to preprocess a source file
+src/Tests/Test.cpp.i:
+	$(MAKE) -f CMakeFiles/OpenGL.dir/build.make CMakeFiles/OpenGL.dir/src/Tests/Test.cpp.i
+.PHONY : src/Tests/Test.cpp.i
+
+src/Tests/Test.s: src/Tests/Test.cpp.s
+
+.PHONY : src/Tests/Test.s
+
+# target to generate assembly for a file
+src/Tests/Test.cpp.s:
+	$(MAKE) -f CMakeFiles/OpenGL.dir/build.make CMakeFiles/OpenGL.dir/src/Tests/Test.cpp.s
+.PHONY : src/Tests/Test.cpp.s
+
+src/Tests/TestClearColor.o: src/Tests/TestClearColor.cpp.o
+
+.PHONY : src/Tests/TestClearColor.o
+
+# target to build an object file
+src/Tests/TestClearColor.cpp.o:
+	$(MAKE) -f CMakeFiles/OpenGL.dir/build.make CMakeFiles/OpenGL.dir/src/Tests/TestClearColor.cpp.o
+.PHONY : src/Tests/TestClearColor.cpp.o
+
+src/Tests/TestClearColor.i: src/Tests/TestClearColor.cpp.i
+
+.PHONY : src/Tests/TestClearColor.i
+
+# target to preprocess a source file
+src/Tests/TestClearColor.cpp.i:
+	$(MAKE) -f CMakeFiles/OpenGL.dir/build.make CMakeFiles/OpenGL.dir/src/Tests/TestClearColor.cpp.i
+.PHONY : src/Tests/TestClearColor.cpp.i
+
+src/Tests/TestClearColor.s: src/Tests/TestClearColor.cpp.s
+
+.PHONY : src/Tests/TestClearColor.s
+
+# target to generate assembly for a file
+src/Tests/TestClearColor.cpp.s:
+	$(MAKE) -f CMakeFiles/OpenGL.dir/build.make CMakeFiles/OpenGL.dir/src/Tests/TestClearColor.cpp.s
+.PHONY : src/Tests/TestClearColor.cpp.s
+
+src/Tests/TestTexture2D.o: src/Tests/TestTexture2D.cpp.o
+
+.PHONY : src/Tests/TestTexture2D.o
+
+# target to build an object file
+src/Tests/TestTexture2D.cpp.o:
+	$(MAKE) -f CMakeFiles/OpenGL.dir/build.make CMakeFiles/OpenGL.dir/src/Tests/TestTexture2D.cpp.o
+.PHONY : src/Tests/TestTexture2D.cpp.o
+
+src/Tests/TestTexture2D.i: src/Tests/TestTexture2D.cpp.i
+
+.PHONY : src/Tests/TestTexture2D.i
+
+# target to preprocess a source file
+src/Tests/TestTexture2D.cpp.i:
+	$(MAKE) -f CMakeFiles/OpenGL.dir/build.make CMakeFiles/OpenGL.dir/src/Tests/TestTexture2D.cpp.i
+.PHONY : src/Tests/TestTexture2D.cpp.i
+
+src/Tests/TestTexture2D.s: src/Tests/TestTexture2D.cpp.s
+
+.PHONY : src/Tests/TestTexture2D.s
+
+# target to generate assembly for a file
+src/Tests/TestTexture2D.cpp.s:
+	$(MAKE) -f CMakeFiles/OpenGL.dir/build.make CMakeFiles/OpenGL.dir/src/Tests/TestTexture2D.cpp.s
+.PHONY : src/Tests/TestTexture2D.cpp.s
+
 src/Texture.o: src/Texture.cpp.o
 
 .PHONY : src/Texture.o
@@ -935,6 +1016,15 @@ help:
 	@echo "... src/Shader.o"
 	@echo "... src/Shader.i"
 	@echo "... src/Shader.s"
+	@echo "... src/Tests/Test.o"
+	@echo "... src/Tests/Test.i"
+	@echo "... src/Tests/Test.s"
+	@echo "... src/Tests/TestClearColor.o"
+	@echo "... src/Tests/TestClearColor.i"
+	@echo "... src/Tests/TestClearColor.s"
+	@echo "... src/Tests/TestTexture2D.o"
+	@echo "... src/Tests/TestTexture2D.i"
+	@echo "... src/Tests/TestTexture2D.s"
 	@echo "... src/Texture.o"
 	@echo "... src/Texture.i"
 	@echo "... src/Texture.s"

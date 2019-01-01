@@ -20,6 +20,7 @@ set(CMAKE_TARGET_DEFINITIONS_C
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "../vendor/GLFW/include"
   "../src/vendor"
+  "../src"
   "../vendor/GLFW/deps"
   )
 

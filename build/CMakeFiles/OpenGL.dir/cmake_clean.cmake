@@ -7,10 +7,12 @@ file(REMOVE_RECURSE
   "CMakeFiles/OpenGL.dir/src/Shader.cpp.o"
   "CMakeFiles/OpenGL.dir/src/vendor/stb_image/stb_image.cpp.o"
   "CMakeFiles/OpenGL.dir/src/Texture.cpp.o"
+  "CMakeFiles/OpenGL.dir/src/Tests/Test.cpp.o"
   "CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui.cpp.o"
   "CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_draw.cpp.o"
   "CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_demo.cpp.o"
   "CMakeFiles/OpenGL.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o"
+  "CMakeFiles/OpenGL.dir/src/Tests/TestClearColor.cpp.o"
   "../bin/OpenGL.pdb"
   "../bin/OpenGL"
 )
